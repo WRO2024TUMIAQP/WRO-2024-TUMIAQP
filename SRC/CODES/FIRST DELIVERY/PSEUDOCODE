@@ -1,0 +1,109 @@
+Algoritmo Robot_Evitador_Obstaculos
+	// Definimos Pines de los sensores ultrasónicos
+	Definir trigFront Como Entero
+	Definir echoFront Como Entero
+	Definir trigRight Como Entero
+	Definir echoRight Como Entero
+	Definir trigLeft Como Entero
+	Definir echoLeft Como Entero
+	// Definimos pines del servomotor
+	Definir servoPin Como Entero
+	// Definimos pines del puente H para el motor DC
+	Definir motorPin1 Como Entero
+	Definir motorPin2 Como Entero
+	// Variables para los tiempos de eco
+	Definir durationFront Como Real
+	Definir durationRight Como Real
+	Definir durationLeft Como Real
+	// Variables para las distancias
+	Definir distanceFront Como Entero // large
+	Definir distanceRight Como Entero // large
+	Definir distanceLeft Como Entero // large
+	// Inicializa los pines de los sensores ultrasónicos
+	trigFront <- 19
+	echoFront <- 21
+	trigRight <- 5
+	echoRight <- 18
+	trigLeft <- 16
+	echoLeft <- 17
+	// Inicializa los pines del servomotor
+	servoPin <- 4
+	// Inicializa los pines del puente H
+	motorPin1 <- 22
+	motorPin2 <- 23
+	// Inicializa el servomotor
+	servo_adjuntar <- servoPin
+	servo_escribir <- 90
+	// Inicializa la comunicación serial
+	serial_inicializar <- 115200
+	// Bucle principal
+	Mientras (verdadero) Hacer // servo_adjuntar(servoPin)
+		// Obtiene las distancias de los sensores ultrasónicos
+		// distanceFront = obtener_distancia(trigFront, echoFront) 
+		// distanceRight = obtener_distancia(trigRight, echoRight) 
+		// distanceLeft = obtener_distancia(trigLeft, echoLeft) 
+		// Imprime las distancias en el monitor serial
+		Escribir 'Front: ', distanceFront, ' cm, Right: ', distanceRight, ' cm, Left: ', distanceLeft, ' cm' // Pone el servo en la posición inicial 90° - servo_escribir(90)
+		// Lógica para evitar obstáculos
+		Si (distanceFront<27) Entonces
+			detener_motor(true)
+			Si (distanceLeft>distanceRight) Entonces
+				girar_izquierda(true)
+			SiNo
+				girar_derecha(true)
+			FinSi
+		SiNo
+			avanzar(true)
+		FinSi
+		Escribir 'Espera 100 ms antes de la siguiente lectura'
+	FinMientras
+	// FinAlgoritmo
+	// Función para obtener la distancia de un sensor ultrasónico
+	// Funcion obtener_distancia(trigPin, echoPin) como entero
+	Definir duration Como Real
+	Definir distance Como Entero // esperar(100)
+	// Enviar pulso de trigger
+	// escribir_pin(trigPin, 0)
+	Escribir 'Espera 2 microsegundos'
+	// escribir_pin(trigPin, 1)
+	Escribir 'Espera 10 microegundos'
+	// escribir_pin(trigPin, 0)
+	// Leer el pulso de echo
+	// duration = pulso_entrada(echoPin, 1) // Duración del pulso ECHO
+	// distance = duration * 0.034 / 2 // Calcula la distancia en cm
+	// Retornar distance // Devuelve la distancia
+FinAlgoritmo
+
+// Función para mover el motor hacia adelante
+Función avanzar(true) // esperar_microsegundos(2)
+	// escribir_pin(motorPin1, 1)
+	// escribir_pin(motorPin2, 0)
+	Escribir 'Motor prendido' // esperar_microsegundos(10)
+FinFunción
+
+// Función para detener el motor
+Función detener_motor(true)
+	// escribir_pin(motorPin1, 0)
+	// escribir_pin(motorPin2, 0)
+	Escribir 'Motor apagado'
+FinFunción
+
+// Función para girar a la izquierda
+Función girar_izquierda(true)
+	// servo_escribir(40) // Gira el servomotor a la izquierda
+	Escribir 'Servo se mueve 30° (izquierda)'
+	// esperar(500) // Espera 500 ms
+	Escribir 'Se esperan 0,5 segundos'
+	// servo_escribir(90) // Vuelve el servomotor a la posición inicial
+	Escribir 'Servo regresa a su posicion'
+FinFunción
+
+// Función para girar a la derecha
+Función girar_derecha(true)
+	// servo_escribir(140) // Gira el servomotor a la derecha
+	Escribir 'Servo se mueve 150° (derecha)'
+	// esperar(500) // Espera 500 ms
+	Escribir 'Se espera 0,5 segundos'
+	// servo_escribir(90) // Vuelve el servomotor a la posición inicial
+	Escribir 'Servo regresa a su posicion'
+FinFunción
