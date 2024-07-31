@@ -1,0 +1,119 @@
+#include <ESP32Servo.h>
+
+// Pines de los sensores ultrasónicos
+const int trigFront = 19;
+const int echoFront = 21;
+const int trigRight = 5;
+const int echoRight = 18;
+const int trigLeft = 16;
+const int echoLeft = 17;
+
+// Pines del servomotor
+const int servoPin = 4;
+
+// Pines del puente H para el motor DC
+const int motorPin1 = 22;
+const int motorPin2 = 23;
+
+// Variables para los tiempos de eco
+long durationFront;
+long durationRight;
+long durationLeft;
+
+// Variables para las distancias
+int distanceFront;
+int distanceRight;
+int distanceLeft;
+
+Servo myServo;
+
+void setup() {
+  // Inicializa los pines de los sensores ultrasónicos como salida y entrada
+  pinMode(trigFront, OUTPUT);
+  pinMode(echoFront, INPUT);
+  pinMode(trigRight, OUTPUT);
+  pinMode(echoRight, INPUT);
+  pinMode(trigLeft, OUTPUT);
+  pinMode(echoLeft, INPUT);
+
+  // Inicializa los pines del puente H como salida
+  pinMode(motorPin1, OUTPUT);
+  pinMode(motorPin2, OUTPUT);
+
+  // Inicializa el servomotor y lo posiciona en el centro (90 grados)
+  myServo.attach(servoPin);
+  myServo.write(90);  // Pone el servo en la posición inicial
+
+  // Inicializa la comunicación serial para monitorear datos
+  Serial.begin(115200);
+}
+
+void loop() {
+  // Obtiene las distancias de los sensores ultrasónicos
+  distanceFront = getDistance(trigFront, echoFront);
+  distanceRight = getDistance(trigRight, echoRight);
+  distanceLeft = getDistance(trigLeft, echoLeft);
+
+  // Imprime las distancias en la consola serial
+  Serial.print("Front: ");
+  Serial.print(distanceFront);
+  Serial.print(" cm, Right: ");
+  Serial.print(distanceRight);
+  Serial.print(" cm, Left: ");
+  Serial.print(distanceLeft);
+  Serial.println(" cm");
+
+  // Lógica para evitar obstáculos
+  if (distanceFront < 20) { // Si hay un obstáculo en frente a menos de 20 cm
+    stopMotor(); // Detiene el motor
+    if (distanceLeft > distanceRight) { // Si la distancia a la izquierda es mayor que a la derecha
+      turnLeft(); // Gira a la izquierda
+    } else { // Si la distancia a la derecha es mayor o igual que a la izquierda
+      turnRight(); // Gira a la derecha
+    }
+  } else { // Si no hay obstáculos en frente
+    moveForward(); // Avanza
+  }
+
+  delay(100); // Espera 100 ms antes de la siguiente lectura
+}
+
+// Función para obtener la distancia medida por un sensor ultrasónico
+int getDistance(int trigPin, int echoPin) {
+  digitalWrite(trigPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(trigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(trigPin, LOW);
+
+  long duration = pulseIn(echoPin, HIGH); // Lee el tiempo que tarda en regresar el eco
+  int distance = duration * 0.034 / 2; // Calcula la distancia en cm
+
+  return distance; // Devuelve la distancia calculada
+}
+
+// Función para avanzar el motor
+void moveForward() {
+  digitalWrite(motorPin1, HIGH);
+  digitalWrite(motorPin2, LOW);
+}
+
+// Función para detener el motor
+void stopMotor() {
+  digitalWrite(motorPin1, LOW);
+  digitalWrite(motorPin2, LOW);
+}
+
+// Función para girar a la izquierda
+void turnLeft() {
+  myServo.write(30); // Gira el servo a la izquierda
+  delay(500); // Espera 500 ms
+  myServo.write(90); // Regresa el servo a la posición inicial
+}
+
+// Función para girar a la derecha
+void turnRight() {
+  myServo.write(150); // Gira el servo a la derecha
+  delay(500); // Espera 500 ms
+  myServo.write(90); // Regresa el servo a la posición inicial
+}
