@@ -1,1 +1,0 @@
-WRO 2024 Tumi AQP
