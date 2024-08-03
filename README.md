@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>TUMI-AQP WRO 2024</h1>
-    <h3>Repository for TUMI-AQP WRO Future Engineers</h3>
-   <img src="Formal-photo.jpg" alt=" TEAM TUMI">
+    <h3>TUMI-AQP Repository for WRO 2024 Future Engineers</h3>
+   <img src="/T-PHOTOS/Formal-photo.jpg" alt=" TEAM TUMI">
 </body>
 </html>
