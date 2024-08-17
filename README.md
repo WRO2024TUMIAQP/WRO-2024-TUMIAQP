@@ -7,30 +7,81 @@
 ## Contents
 
 - [Hardware](#hardware)
+  - [Components](#components)
+  - [Models](#models)
+  - [Electronics](#electronics)
+  - [Ackerman's](#ackermans)
 - [Software](#software)
+  - [Sensors](#sensors)
+  - [Position](#position)
+  - [Strategy](#strategy)
 - [Photos](#photos)
+  - [Car images](#car-images)
+  - [Team images](#team-images)
 - [Videos](#videos)
+  - [Demonstration videos](#demonstration-videos)
 - [Legal](#legal)
+  - [License](#license)
+  - [Credits](#credits)
 
 ## Hardware
 
 Building an autonomous car for this challenge involves a meticulous process of reimagining and redesigning various components to achieve precision, safety, and efficiency. In this project, we focused on enhancing the car’s steering mechanism, designing a custom-printed circuit board (PCB) to connect all the components seamlessly, and optimizing the overall mechanical structure for better performance.
 
+### Components
+
+In this section, we detail the key components used in the construction of the car, including sensors, actuators, and controllers. Each component was selected to ensure the highest level of accuracy and reliability in autonomous driving.
+
+### Models
+
+We developed 3D models of the car to simulate its behavior and performance under various conditions. These models helped in fine-tuning the design before actual production, saving both time and resources.
+
+### Electronics
+
+The electronics system was carefully designed to integrate all sensors and actuators with the central processing unit. We used a custom PCB to streamline connections and reduce the chances of wiring errors, which could lead to system failures.
+
+### Ackerman's
+
+We implemented the Ackerman steering principle to ensure that the car's wheels follow the correct path during turns, minimizing tire wear and improving overall handling. This mechanism was fine-tuned to work seamlessly with our control algorithms.
+
 ## Software
 
-Details about the software can go here.
+The software aspect of the project is critical to the car’s ability to navigate autonomously. Our software stack includes modules for sensor data processing, decision-making, and actuation, all running on a real-time operating system to ensure quick and reliable performance.
+
+### Sensors
+
+We employed a variety of sensors, including LiDAR, cameras, and ultrasonic sensors, to gather environmental data. This information is processed in real-time to detect obstacles, determine position, and plan the car's path.
+
+### Position
+
+Accurate positioning is crucial for the car's navigation. We combined GPS data with sensor input to determine the car's exact location, allowing it to navigate complex environments with high precision.
+
+### Strategy
+
+The strategy module is responsible for making high-level decisions, such as path planning and obstacle avoidance. It uses advanced algorithms to calculate the most efficient and safest route to the destination.
 
 ## Photos
 
-- [Car Images](#)
-- [Team Images](#)
+### Car images
+
+Here are some images of the car at various stages of development and testing, showcasing the design and functionality of the autonomous system.
+
+### Team images
+
+Meet the team behind the TUMI-AQP WRO 2024 project. These images capture the hard work and dedication of our team members as they bring the project to life.
 
 ## Videos
 
-- [Demonstration Videos](#)
+### Demonstration videos
+
+Watch our demonstration videos to see the car in action. These videos highlight the car's autonomous capabilities, including obstacle avoidance, path following, and more.
 
 ## Legal
 
-- [License](#)
-- [Credits](#)
+### License
 
+This project is licensed under the MIT License, allowing for open-source collaboration and development. Feel free to use and modify our code and designs, but please give credit to the original authors.
+
+### Credits
+
+This project was made possible through the efforts of the TUMI-AQP team, with support from our mentors, sponsors, and the broader community. Special thanks to everyone who contributed to the success of this project.
