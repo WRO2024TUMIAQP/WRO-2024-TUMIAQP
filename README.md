@@ -50,6 +50,7 @@ In this section, we detail the key components used in the construction of the ca
 - 1 Interruptor de dos posiciones deslizantes
 - 1 servomotores mg90s
 - 1 TCS3200 color sensor interfacing with ESP3
+  
 We developed 3D models of the car to simulate its behavior and performance under various conditions. These models helped in fine-tuning the design before actual production, saving both time and resources.
 
 ### Electronics
