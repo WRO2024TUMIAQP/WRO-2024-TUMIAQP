@@ -63,7 +63,12 @@ We developed 3D models of the car to simulate its behavior and performance under
 
 The electronics system was carefully designed to integrate all sensors and actuators with the central processing unit. We used a custom PCB to streamline connections and reduce the chances of wiring errors, which could lead to system failures.
 - ![ESP-32](/V-PHOTOS/SECONDPROTOTYPE/OTHERPHOTOS/ESP-32.jpeg)
-- ![COLOR SENSOR](/V-PHOTOS/SECONDPROTOTYPE/OTHERPHOTOS/COLOR-SENSOR-TCS3200.jpg)
+- ![ESP32 CAM-1](V-PHOTOS/SECONDPROTOTYPE/OTHERPHOTOS/ESP-32_CAM-1.jpeg)
+- ![ESP32 CAM-2](V-PHOTOS/SECONDPROTOTYPE/OTHERPHOTOS/ESP-32_CAM-2.jpeg)
+- ![SERVOMOTOR](V-PHOTOS/SECONDPROTOTYPE/OTHERPHOTOS/SERVOMOTOR-MG995.png)
+- ![GYROSCOPE](V-PHOTOS/SECONDPROTOTYPE/OTHERPHOTOS/GIROSCOPIO-MPU6050.jpg)
+- ![TOF](V-PHOTOS/SECONDPROTOTYPE/OTHERPHOTOS/TOF-VL53LOX.png)
+- ![COLOR SENSOR](V-PHOTOS/SECONDPROTOTYPE/OTHERPHOTOS/COLOR-SENSOR-TCS3200.jpg)
 
 ### Ackerman's
 
