@@ -31,25 +31,25 @@ Building an autonomous car for this challenge involves a meticulous process of r
 ### Components
 
 In this section, we detail the key components used in the construction of the car, including sensors, actuators, and controllers. Each component was selected to ensure the highest level of accuracy and reliability in autonomous driving.
-- 2 Motor N20 800RPM
-- 7 Sensores TOF VL53LOX
-- 1 Batería tipo 11.1V 1500mAh
-- 1 Giroscopio MPU 6050
-- 2kg Filamento PLA
+- 2 N20 Motors 800RPM
+- 7 TOF Sensors VL53LOX
+- 1 Battery 11.1V 1500mAh
+- 1 MPU 6050 Gyroscope
+- 2kg PLA Filament
 - 1 ESP 32
-- 1 ESP 32 CAM y modulo de carga de codigo
-- 2 Pegamentos (triz)
-- 1 Bicarbonato de sodio 100 gr
-- 1 Kit de soldadura (Cautin 30W, estaño)
-- 1 Placa PCB de cobre (10^15)
-- 1 Driver puente H (TB6612FNG)
-- 1 Conversor de voltaje dc-dc lm2596
-- 1 Paquete espadines hembra y macho
-- 1 Paquete de Jumpers (Hembra-Macho,h-h y m-m)15cm
-- 1 Pack tornillos m3 (100u hembras y macho)
-- 1 Interruptor de dos posiciones deslizantes
-- 1 servomotores mg90s
-- 1 TCS3200 color sensor interfacing with ESP3
+- 1 ESP 32 CAM and Code Upload Module
+- 2 Glues (Triz)
+- 1 Sodium Bicarbonate 100g
+- 1 Soldering Kit (30W Soldering Iron, Tin)
+- 1 Copper PCB Board (10x15 cm)
+- 1 H-Bridge Driver (TB6612FNG)
+- 1 DC-DC Voltage Converter LM2596
+- 1 Package of Female and Male Dupont Wires
+- 1 Package of Jumpers (Female-Male, Female-Female, Male-Male) 15cm
+- 1 Pack of M3 Screws (100pcs Female and Male)
+- 1 Two-Position Slide Switch
+- 1 MG90S Servomotor
+- 1 TCS3200 Color Sensor interfacing with ESP32
   
 We developed 3D models of the car to simulate its behavior and performance under various conditions. These models helped in fine-tuning the design before actual production, saving both time and resources.
 
