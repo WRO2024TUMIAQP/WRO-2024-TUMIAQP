@@ -31,7 +31,30 @@ Building an autonomous car for this challenge involves a meticulous process of r
 ### Components
 
 In this section, we detail the key components used in the construction of the car, including sensors, actuators, and controllers. Each component was selected to ensure the highest level of accuracy and reliability in autonomous driving.
-
+-2 Placa de desarrrollo
+-2 Motoreductor
+-3 Motor N20 800RPM
+-8 Sensores TOF VL53LOX
+-2 Batería tipo 11.1V 1500mAh
+-2 Giroscopio MPU 6050
+-2kg Filamento PLA
+-1 ESP 32
+-1 ESP 32 CAM y modulo de carga de codigo
+-4 Neumaticos arduino
+-2 Pegamentos (triz)
+-1 Bicarbonato de sodio 100 gr
+-1 Kit de soldadura (Cautin 30W, estaño)
+-2 Placa PCB de cobre (10^15)
+-3 Driver puente H (TB6612FNG)
+-1 Conversor de voltaje dc-dc lm2596
+-1 Paquete espadines hembra y macho
+-1 Cargador IMAX B3 PRO
+-1 Paquete de Jumpers (Hembra-Macho,h-h y m-m)15cm
+-1 Pack tornillos m3 (100u hembras y macho)
+-1 Cable 2m ethernet cat 8 
+-2 Interruptor de dos posiciones deslizantes 
+-3 servomotores mg90s
+-2 TCS3200 color sensor interfacing with ESP32
 ### Models
 
 We developed 3D models of the car to simulate its behavior and performance under various conditions. These models helped in fine-tuning the design before actual production, saving both time and resources.
