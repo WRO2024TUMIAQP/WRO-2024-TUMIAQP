@@ -63,6 +63,7 @@ We developed 3D models of the car to simulate its behavior and performance under
 
 The electronics system was carefully designed to integrate all sensors and actuators with the central processing unit. We used a custom PCB to streamline connections and reduce the chances of wiring errors, which could lead to system failures.
 - ![ESP-32](/V-PHOTOS/SECONDPROTOTYPE/OTHERPHOTOS/ESP-32.jpeg)
+- ![ESP-32](/V-PHOTOS/SECONDPROTOTYPE/OTHERPHOTOS/TOFVL53LOX.png)
 
 ### Ackerman's
 
