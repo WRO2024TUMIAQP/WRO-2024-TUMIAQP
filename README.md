@@ -3,6 +3,7 @@
 ### TUMI-AQP Repository for WRO 2024 Future Engineers
 
 ![TEAM TUMI](/T-PHOTOS/Formal-photo.jpg)
+- ![ESP-32](/V-PHOTOS/SECONDPROTOTYPE/OTHERPHOTOS/ESP-32.jpeg)
 
 ## Contents
 
