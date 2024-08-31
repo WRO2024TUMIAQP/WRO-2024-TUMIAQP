@@ -54,7 +54,8 @@ In this section, we detail the key components used in the construction of the ca
 We developed 3D models of the car to simulate its behavior and performance under various conditions. These models helped in fine-tuning the design before actual production, saving both time and resources.
 
 ### Models
-In this section, you can explore a variety of customized 3D models and 3D prints created for our project. Each model has been crafted with attention to detail, ensuring compatibility with the competition's standards
+In this section, you can explore a variety of customized 3D models and 3D prints created for our project. Each model has been crafted with attention to detail, ensuring compatibility with the competition's standards.
+
 ### Electronics
 
 The electronics system was carefully designed to integrate all sensors and actuators with the central processing unit. We used a custom PCB to streamline connections and reduce the chances of wiring errors, which could lead to system failures.
