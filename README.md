@@ -33,7 +33,7 @@ En esta sección, detallamos los componentes clave utilizados en la construcció
 - **1 ESP 32 CAM y Módulo de Carga de Código:** Añade capacidades de visión al coche, permitiendo la captura de imágenes y videos, lo que puede ser útil para sistemas de visión artificial en la competencia.
 
 #### Materiales de Construcción
-- **2 kg de Filamento PLA:** Utilizado en la impresión 3D de la estructura del coche, proporcionando un chasis ligero pero resistente.
+- **800 gramos de Filamento PLA:** Utilizado en la impresión 3D de la estructura del coche, proporcionando un chasis ligero pero resistente.
 - **1 Placa PCB de Cobre (10x15 cm):** Personalizada para conectar de manera eficiente todos los componentes electrónicos, reduciendo la posibilidad de errores de cableado.
 
 #### Conectores y Cables
