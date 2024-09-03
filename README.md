@@ -28,7 +28,8 @@
 
 Construir un coche autónomo para este desafío implica un proceso meticuloso de reimaginación y rediseño de varios componentes para lograr precisión, seguridad y eficiencia. En este proyecto, nos centramos en mejorar el mecanismo de dirección del coche, diseñar una placa de circuito impreso (PCB) personalizada para conectar todos los componentes de manera fluida, y optimizar la estructura mecánica en general para un mejor rendimiento. Además, utilizamos impresión 3D para crear una estructura robusta y ligera que albergara todos los componentes.
 
-Puedes encontrar los archivos de diseño para las piezas impresas en 3D en la carpeta [/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D) del repositorio.
+Puedes encontrar los archivos de diseño para las piezas impresas en 3D en la carpeta [/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D](./V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D) del repositorio.
+
 
 
 ### Components
