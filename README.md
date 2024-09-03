@@ -60,33 +60,33 @@ Puedes encontrar los archivos de diseño para las piezas impresas en 3D en la ca
 El sistema electrónico fue cuidadosamente diseñado para integrar todos los sensores y actuadores con la unidad central de procesamiento. Usamos una PCB personalizada para simplificar las conexiones y reducir las posibilidades de errores de cableado, lo que podría llevar a fallos en el sistema.
 
 #### ESP-32
-![ESP-32](/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32.jpeg)
+![ESP-32](/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COMPONENTS/ESP-32.jpeg)
 - **Beneficios:**  
  El ESP-32 es un microcontrolador avanzado que destaca por su potencia de procesamiento y eficiencia energética. Su diseño moderno y de bajo costo lo convierte en una solución ideal para proyectos de automatización y control. Su capacidad para manejar tareas complejas con un bajo consumo energético lo hace especialmente adecuado para aplicaciones que requieren un alto rendimiento sin comprometer el presupuesto.
 
 #### ESP32 CAM
-![ESP32 CAM-1](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32_CAM-1.jpeg)
-![ESP32 CAM-2](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32_CAM-2.jpeg)
+![ESP32 CAM-1](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COMPONENTS/ESP-32_CAM-1.jpeg)
+![ESP32 CAM-2](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COMPONENTS/ESP-32_CAM-2.jpeg)
 - **Beneficios:**  
   El ESP32 CAM combina las capacidades del ESP32 con una cámara integrada, permitiendo la captura de imágenes y videos. Esto es especialmente útil en sistemas de visión para robótica y proyectos de vigilancia, proporcionando una solución compacta y rentable para la segunda ronda de la competencia en el cual nos apoya detectando los obstaculos y su determinado color (verde o rojo) dirigiendo al robot de manera efectiva.
 
 #### SERVOMOTOR-MG995
-![SERVOMOTOR-MG995](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/SERVOMOTOR-MG995.png)
+![SERVOMOTOR-MG995](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COMPONENTS/SERVOMOTOR-MG995.png)
 - **Beneficios:**  
     El servomotor MG995 es conocido por su alto torque y precisión, lo que lo hace ideal para aplicaciones que requieren un control de movimiento exacto, Perfecto para el sistema direccional utilizado.
 
 #### GYROSCOPE-MPU6050
-![GYROSCOPE-MPU6050](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/GIROSCOPIO-MPU6050.jpg)
+![GYROSCOPE-MPU6050](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COMPONENTS/GIROSCOPIO-MPU6050.jpg)
 - **Beneficios:**  
   El MPU6050 es un sensor de movimiento que combina un giroscopio y un acelerómetro. Es crucial para medir la orientación y estabilidad, permitiendo una navegación precisa y un control de balance efectivo en el vehículo.
 
 #### TOF-VL53LOX
-![TOF-VL53LOX](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-VL53LOX.png)
+![TOF-VL53LOX](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COMPONENTS/TOF-VL53LOX.png)
 - **Beneficios:**  
   El sensor de distancia VL53LOX utiliza tecnología de tiempo de vuelo (ToF) para medir distancias con alta precisión. Es esencial para la detección de obstáculos en tiempo real y el mapeo del de la pista, mejorando la capacidad del vehículo para evitar colisiones.
 
 #### COLOR SENSOR-TCS3200
-![COLOR SENSOR-TCS3200](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COLOR-SENSOR-TCS3200.jpg)
+![COLOR SENSOR-TCS3200](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COMPONENTS/COLOR-SENSOR-TCS3200.jpg)
 - **Beneficios:**  
   El TCS3200 es un sensor de color que puede detectar el color y la intensidad de la luz. Es útil en aplicaciones donde se necesita el reconocimiento de colores, como la clasificación de objetos o la identificación de señales en sistemas autónomos.
 
