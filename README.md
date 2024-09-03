@@ -24,12 +24,6 @@
   - [License](#license)
   - [Credits](#credits)
 
-## Hardware
-
-Construir un coche autónomo para la competencia WRO 2024 Futuros Ingenieros implica un proceso meticuloso de reimaginación y rediseño de varios componentes para lograr precisión, seguridad y eficiencia. En este proyecto, nos centramos en mejorar el mecanismo de dirección del coche, diseñar una placa de circuito impreso (PCB) personalizada para conectar todos los componentes de manera fluida, y optimizar la estructura mecánica en general para un mejor rendimiento. Además, utilizamos impresión 3D para crear una estructura robusta y ligera que albergara todos los componentes necesarios para las pruebas y desafíos de la competencia.
-
-Puedes encontrar los archivos de diseño para las piezas impresas en 3D en la carpeta [/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D](./V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D) del repositorio.
-
 ### Components
 
 En esta sección, detallamos los componentes clave utilizados en la construcción del coche, incluidos sensores, actuadores y controladores. Cada componente fue seleccionado para asegurar el más alto nivel de precisión y confiabilidad en la conducción autónoma durante la competencia.
@@ -69,6 +63,8 @@ Desarrollamos modelos 3D del coche para simular su comportamiento y rendimiento 
 
 En esta sección, puedes explorar una variedad de modelos 3D personalizados y piezas impresas en 3D creadas para nuestro proyecto. Cada modelo ha sido elaborado con atención al detalle, asegurando la compatibilidad con los estándares de la competencia.
 
+Puedes encontrar los archivos de diseño para las piezas impresas en 3D en la carpeta [/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D](./V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D) del repositorio.
+
 ### Electronics
 
 El sistema electrónico fue cuidadosamente diseñado para integrar todos los sensores y actuadores con la unidad central de procesamiento. Usamos una PCB personalizada para simplificar las conexiones y reducir las posibilidades de errores de cableado, lo que podría llevar a fallos en el sistema.
@@ -76,18 +72,18 @@ El sistema electrónico fue cuidadosamente diseñado para integrar todos los sen
 #### ESP-32
 ![ESP-32](/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32.jpeg)
 - **Beneficios:**  
-  El ESP-32 es un microcontrolador potente con conectividad Wi-Fi y Bluetooth, ideal para aplicaciones que requieren comunicación inalámbrica. Su bajo consumo de energía y capacidades de procesamiento lo hacen perfecto para proyectos de automatización y control remoto.
+ El ESP-32 es un microcontrolador avanzado que destaca por su potencia de procesamiento y eficiencia energética. Su diseño moderno y de bajo costo lo convierte en una solución ideal para proyectos de automatización y control. Su capacidad para manejar tareas complejas con un bajo consumo energético lo hace especialmente adecuado para aplicaciones que requieren un alto rendimiento sin comprometer el presupuesto.
 
 #### ESP32 CAM
 ![ESP32 CAM-1](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32_CAM-1.jpeg)
 ![ESP32 CAM-2](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32_CAM-2.jpeg)
 - **Beneficios:**  
-  El ESP32 CAM combina las capacidades del ESP32 con una cámara integrada, permitiendo la captura de imágenes y videos. Esto es especialmente útil en sistemas de visión para robótica y proyectos de vigilancia, proporcionando una solución compacta y rentable.
+  El ESP32 CAM combina las capacidades del ESP32 con una cámara integrada, permitiendo la captura de imágenes y videos. Esto es especialmente útil en sistemas de visión para robótica y proyectos de vigilancia, proporcionando una solución compacta y rentable para la segunda ronda de la competencia en el cual nos apoya detectando los obstaculos y su determinado color (verde o rojo) dirigiendo al robot de manera efectiva.
 
 #### SERVOMOTOR-MG995
 ![SERVOMOTOR-MG995](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/SERVOMOTOR-MG995.png)
 - **Beneficios:**  
-  El servomotor MG995 es conocido por su alto torque y precisión, lo que lo hace ideal para aplicaciones que requieren un control de movimiento exacto, como la dirección en vehículos autónomos o sistemas robóticos.
+    El servomotor MG995 es conocido por su alto torque y precisión, lo que lo hace ideal para aplicaciones que requieren un control de movimiento exacto, Perfecto para el sistema direccional utilizado.
 
 #### GYROSCOPE-MPU6050
 ![GYROSCOPE-MPU6050](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/GIROSCOPIO-MPU6050.jpg)
@@ -97,7 +93,7 @@ El sistema electrónico fue cuidadosamente diseñado para integrar todos los sen
 #### TOF-VL53LOX
 ![TOF-VL53LOX](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-VL53LOX.png)
 - **Beneficios:**  
-  El sensor de distancia VL53LOX utiliza tecnología de tiempo de vuelo (ToF) para medir distancias con alta precisión. Es esencial para la detección de obstáculos en tiempo real y el mapeo del entorno, mejorando la capacidad del vehículo para evitar colisiones.
+  El sensor de distancia VL53LOX utiliza tecnología de tiempo de vuelo (ToF) para medir distancias con alta precisión. Es esencial para la detección de obstáculos en tiempo real y el mapeo del de la pista, mejorando la capacidad del vehículo para evitar colisiones.
 
 #### COLOR SENSOR-TCS3200
 ![COLOR SENSOR-TCS3200](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COLOR-SENSOR-TCS3200.jpg)
@@ -120,14 +116,10 @@ Utilizamos una variedad de sensores que son fundamentales para el correcto funci
 - **1 Sensor de Color TCS3200:** Empleado para detectar señales de color en la pista, crucial para la interpretación de marcadores de ruta o zonas específicas.
 - **1 Giroscopio MPU 6050:** Proporciona información vital sobre la orientación y estabilidad del vehículo, permitiendo ajustes precisos durante la navegación.
 
-### Position
+### Position and Strategy
 
 El posicionamiento preciso es fundamental para que el coche autónomo pueda cumplir con las exigencias de la competencia. Para lograrlo, combinamos los siguientes componentes:
 
-- **1 GPS (integrado con ESP32):** El GPS proporciona datos de ubicación general, que se combinan con la información de los sensores para obtener una posición más precisa.
-- **1 Giroscopio MPU 6050:** Contribuye a la estabilización del coche y proporciona datos de orientación que complementan los datos de GPS para una navegación más precisa.
-
-### Strategy
-
-El módulo de estrategia es responsable de tomar decisiones cruciales para la competencia, como la planificación de rutas y la evitación de obstáculos
+- **7 Sensores TOF VL53LOX:** Los sensores TOF están posicionados estratégicamente alrededor del coche para medir la distancia a las paredes y mantener una dirección recta. Cuando uno de los sensores TOF frontales (dependiendo de la dirección inicial tomada al comenzar la ronda) detecta el final de una esquina en el centro de la pista, el sistema de dirección Ackerman se activa. Esto ajusta la dirección del coche hasta que los sensores TOF estén alineados con las distancias predefinidas, garantizando así una navegación precisa y una trayectoria correcta en la pista.
+- **SENSOR DE COLOR -TCS3200:** Al detectar uno de los colores de las líneas de la pista (azul o anaranjado) asignados, se activa el sensor TOF correspondiente para iniciar el giro, lo que determina la trayectoria del robot, ya sea en sentido horario o antihorario. Este mecanismo permite al robot adaptarse a las señales visuales de la pista.
 
