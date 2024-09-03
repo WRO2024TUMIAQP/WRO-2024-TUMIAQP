@@ -90,6 +90,9 @@ El sistema electrónico fue cuidadosamente diseñado para integrar todos los sen
 - **Beneficios:**  
   El TCS3200 es un sensor de color que puede detectar el color y la intensidad de la luz. Es útil en aplicaciones donde se necesita el reconocimiento de colores, como la clasificación de objetos o la identificación de señales en sistemas autónomos.
 
+#### PLACA PCB  
+ (V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/PCB/PLACA_PCB.png)
+
 ### Ackerman's
 
 Implementamos el principio de dirección de Ackerman para asegurar que las ruedas del coche sigan la trayectoria correcta durante los giros, minimizando el desgaste de los neumáticos y mejorando el manejo general. Este mecanismo fue ajustado para trabajar sin problemas con nuestros algoritmos de control.
