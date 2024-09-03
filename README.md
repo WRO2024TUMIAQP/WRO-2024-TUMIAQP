@@ -91,7 +91,7 @@ El sistema electrónico fue cuidadosamente diseñado para integrar todos los sen
   El TCS3200 es un sensor de color que puede detectar el color y la intensidad de la luz. Es útil en aplicaciones donde se necesita el reconocimiento de colores, como la clasificación de objetos o la identificación de señales en sistemas autónomos.
 
 #### PLACA PCB  
- (V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/PCB/PLACA_PCB.png)
+![PLACA PCB](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/PCB/PLACA_PCB.png)
 
 ### Ackerman's
 
