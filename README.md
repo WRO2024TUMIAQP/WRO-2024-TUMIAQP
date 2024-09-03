@@ -26,7 +26,10 @@
 
 ## Hardware
 
-Building an autonomous car for this challenge involves a meticulous process of reimagining and redesigning various components to achieve precision, safety, and efficiency. In this project, we focused on enhancing the car’s steering mechanism, designing a custom-printed circuit board (PCB) to connect all the components seamlessly, and optimizing the overall mechanical structure for better performance.
+Construir un coche autónomo para este desafío implica un proceso meticuloso de reimaginación y rediseño de varios componentes para lograr precisión, seguridad y eficiencia. En este proyecto, nos centramos en mejorar el mecanismo de dirección del coche, diseñar una placa de circuito impreso (PCB) personalizada para conectar todos los componentes de manera fluida, y optimizar la estructura mecánica en general para un mejor rendimiento. Además, utilizamos impresión 3D para crear una estructura robusta y ligera que albergara todos los componentes.
+
+Puedes encontrar los archivos de diseño para las piezas impresas en 3D en la carpeta [V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D) del repositorio.
+
 
 ### Components
 
