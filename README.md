@@ -4,6 +4,8 @@
 
 ![TEAM TUMI](/T-PHOTOS/Formal-photo.jpg)
 
+Somos el equipo de la WRO 2024 en la categoría Futuros Ingenieros de la región Arequipa, formado por Joshua, Lucy, y Gabriel. Nos une nuestra pasión por la robótica y la ingeniería, lo que nos impulsa a trabajar en equipo para lograr grandes cosas. Joshua se dedica a resolver problemas complejos, Lucy aporta creatividad y habilidades técnicas en el diseño, y Gabriel se enfoca en la electrónica, programacion y la optimización de nuestro robot. Contamos con el apoyo de nuestros mentores, Cristian y Bruno, quienes con su experiencia en robótica y tecnología, nos guían y fortalecen en nuestro camino hacia el éxito en la competencia.
+
 ## Contents
 
 - [Hardware](#hardware)
