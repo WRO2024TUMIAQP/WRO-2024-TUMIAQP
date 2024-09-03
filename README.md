@@ -26,116 +26,108 @@
 
 ## Hardware
 
-Construir un coche autónomo para este desafío implica un proceso meticuloso de reimaginación y rediseño de varios componentes para lograr precisión, seguridad y eficiencia. En este proyecto, nos centramos en mejorar el mecanismo de dirección del coche, diseñar una placa de circuito impreso (PCB) personalizada para conectar todos los componentes de manera fluida, y optimizar la estructura mecánica en general para un mejor rendimiento. Además, utilizamos impresión 3D para crear una estructura robusta y ligera que albergara todos los componentes.
+Construir un coche autónomo para la competencia WRO 2024 Futuros Ingenieros implica un proceso meticuloso de reimaginación y rediseño de varios componentes para lograr precisión, seguridad y eficiencia. En este proyecto, nos centramos en mejorar el mecanismo de dirección del coche, diseñar una placa de circuito impreso (PCB) personalizada para conectar todos los componentes de manera fluida, y optimizar la estructura mecánica en general para un mejor rendimiento. Además, utilizamos impresión 3D para crear una estructura robusta y ligera que albergara todos los componentes necesarios para las pruebas y desafíos de la competencia.
 
 Puedes encontrar los archivos de diseño para las piezas impresas en 3D en la carpeta [/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D](./V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D) del repositorio.
 
-
-
 ### Components
 
-In this section, we detail the key components used in the construction of the car, including sensors, actuators, and controllers. Each component was selected to ensure the highest level of accuracy and reliability in autonomous driving.
-- 2 N20 Motors 800RPM
-- 7 TOF Sensors VL53LOX
-- 1 Battery 11.1V 1500mAh
-- 1 MPU 6050 Gyroscope
-- 2kg PLA Filament
-- 1 ESP 32
-- 1 ESP 32 CAM and Code Upload Module
-- 2 Glues (Triz)
-- 1 Sodium Bicarbonate 100g
-- 1 Soldering Kit (30W Soldering Iron, Tin)
-- 1 Copper PCB Board (10x15 cm)
-- 1 H-Bridge Driver (TB6612FNG)
-- 1 DC-DC Voltage Converter LM2596
-- 1 Package of Female and Male Dupont Wires
-- 1 Package of Jumpers (Female-Male, Female-Female, Male-Male) 15cm
-- 1 Pack of M3 Screws (100pcs Female and Male)
-- 1 Two-Position Slide Switch
-- 1 MG90S Servomotor
-- 1 TCS3200 Color Sensor interfacing with ESP32
-  
-We developed 3D models of the car to simulate its behavior and performance under various conditions. These models helped in fine-tuning the design before actual production, saving both time and resources.
+En esta sección, detallamos los componentes clave utilizados en la construcción del coche, incluidos sensores, actuadores y controladores. Cada componente fue seleccionado para asegurar el más alto nivel de precisión y confiabilidad en la conducción autónoma durante la competencia.
+
+#### Motores y Actuadores
+- **2 Motores N20 800RPM:** Proporcionan la fuerza motriz necesaria para el movimiento del coche. Estos motores son compactos y potentes, ideales para la maniobrabilidad en la pista de competencia.
+- **1 Servomotor MG90S:** Utilizado para controlar el sistema de dirección, este servomotor permite giros precisos, siguiendo el principio de dirección de Ackerman.
+
+#### Energía
+- **1 Batería de 11.1V 1500mAh:** Proporciona la energía necesaria para todos los componentes electrónicos, garantizando una operación continua durante las pruebas y desafíos.
+- **1 Convertidor de Voltaje DC-DC LM2596:** Ajusta el voltaje de la batería para alimentar adecuadamente los diferentes componentes del sistema.
+
+#### Microcontroladores y Comunicación
+- **1 ESP 32:** El cerebro del coche autónomo. Este microcontrolador gestiona la lógica de control y la comunicación con los sensores y actuadores.
+- **1 ESP 32 CAM y Módulo de Carga de Código:** Añade capacidades de visión al coche, permitiendo la captura de imágenes y videos, lo que puede ser útil para sistemas de visión artificial en la competencia.
+
+#### Materiales de Construcción
+- **2 kg de Filamento PLA:** Utilizado en la impresión 3D de la estructura del coche, proporcionando un chasis ligero pero resistente.
+- **1 Placa PCB de Cobre (10x15 cm):** Personalizada para conectar de manera eficiente todos los componentes electrónicos, reduciendo la posibilidad de errores de cableado.
+
+#### Conectores y Cables
+- **1 Paquete de Cables Dupont Hembra y Macho:** Utilizados para interconectar los componentes electrónicos, asegurando conexiones firmes y seguras.
+- **1 Paquete de Jumpers (Hembra-Macho, Hembra-Hembra, Macho-Macho) 15 cm:** Proporcionan flexibilidad en la configuración de los circuitos.
+- **1 Paquete de Tornillos M3 (100 piezas Hembra y Macho):** Para asegurar todas las piezas y componentes en su lugar.
+
+#### Herramientas y Adhesivos
+- **1 Kit de Soldadura (Cautín de 30W, Estaño):** Necesario para realizar conexiones permanentes y asegurar la integridad de los circuitos.
+- **2 Pegamentos (Triz) y 1 Bicarbonato de Sodio 100g:** Utilizados para asegurar piezas pequeñas y realizar reparaciones rápidas.
+
+#### Otros Componentes Electrónicos
+- **1 Driver H-Bridge (TB6612FNG):** Controla la dirección y velocidad de los motores, permitiendo un manejo preciso del coche.
+- **1 Interruptor Deslizante de Dos Posiciones:** Utilizado para encender y apagar el sistema de manera segura.
 
 ### Models
-In this section, you can explore a variety of customized 3D models and 3D prints created for our project. Each model has been crafted with attention to detail, ensuring compatibility with the competition's standards.
+
+Desarrollamos modelos 3D del coche para simular su comportamiento y rendimiento bajo diversas condiciones. Estos modelos ayudaron a afinar el diseño antes de la producción real, ahorrando tanto tiempo como recursos.
+
+En esta sección, puedes explorar una variedad de modelos 3D personalizados y piezas impresas en 3D creadas para nuestro proyecto. Cada modelo ha sido elaborado con atención al detalle, asegurando la compatibilidad con los estándares de la competencia.
 
 ### Electronics
 
-The electronics system was carefully designed to integrate all sensors and actuators with the central processing unit. We used a custom PCB to streamline connections and reduce the chances of wiring errors, which could lead to system failures.
+El sistema electrónico fue cuidadosamente diseñado para integrar todos los sensores y actuadores con la unidad central de procesamiento. Usamos una PCB personalizada para simplificar las conexiones y reducir las posibilidades de errores de cableado, lo que podría llevar a fallos en el sistema.
+
 #### ESP-32
 ![ESP-32](/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32.jpeg)
-- **Benefits:**  
-  The ESP-32 is a powerful microcontroller with Wi-Fi and Bluetooth connectivity, ideal for applications requiring wireless communication. Its low power consumption and processing capabilities make it perfect for automation and remote control projects.
+- **Beneficios:**  
+  El ESP-32 es un microcontrolador potente con conectividad Wi-Fi y Bluetooth, ideal para aplicaciones que requieren comunicación inalámbrica. Su bajo consumo de energía y capacidades de procesamiento lo hacen perfecto para proyectos de automatización y control remoto.
 
 #### ESP32 CAM
 ![ESP32 CAM-1](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32_CAM-1.jpeg)
 ![ESP32 CAM-2](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32_CAM-2.jpeg)
-- **Benefits:**  
-  The ESP32 CAM combines the ESP32's capabilities with an integrated camera, enabling image and video capture. This is especially useful in vision systems for robotics and surveillance projects, providing a cost-effective and compact solution.
+- **Beneficios:**  
+  El ESP32 CAM combina las capacidades del ESP32 con una cámara integrada, permitiendo la captura de imágenes y videos. Esto es especialmente útil en sistemas de visión para robótica y proyectos de vigilancia, proporcionando una solución compacta y rentable.
 
 #### SERVOMOTOR-MG995
 ![SERVOMOTOR-MG995](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/SERVOMOTOR-MG995.png)
-- **Benefits:**  
-  The MG995 servomotor is known for its high torque and precision, making it ideal for applications requiring accurate movement control, such as steering in autonomous vehicles or robotic systems.
+- **Beneficios:**  
+  El servomotor MG995 es conocido por su alto torque y precisión, lo que lo hace ideal para aplicaciones que requieren un control de movimiento exacto, como la dirección en vehículos autónomos o sistemas robóticos.
 
 #### GYROSCOPE-MPU6050
 ![GYROSCOPE-MPU6050](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/GIROSCOPIO-MPU6050.jpg)
-- **Benefits:**  
-  The MPU6050 is a motion sensor that combines a gyroscope and an accelerometer. It is crucial for measuring orientation and stability, allowing precise navigation and effective balance control in the vehicle.
+- **Beneficios:**  
+  El MPU6050 es un sensor de movimiento que combina un giroscopio y un acelerómetro. Es crucial para medir la orientación y estabilidad, permitiendo una navegación precisa y un control de balance efectivo en el vehículo.
 
 #### TOF-VL53LOX
 ![TOF-VL53LOX](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-VL53LOX.png)
-- **Benefits:**  
-  The VL53LOX distance sensor uses time-of-flight (ToF) technology to measure distances with high accuracy. It is essential for real-time obstacle detection and environment mapping, enhancing the vehicle's ability to avoid collisions.
+- **Beneficios:**  
+  El sensor de distancia VL53LOX utiliza tecnología de tiempo de vuelo (ToF) para medir distancias con alta precisión. Es esencial para la detección de obstáculos en tiempo real y el mapeo del entorno, mejorando la capacidad del vehículo para evitar colisiones.
 
 #### COLOR SENSOR-TCS3200
 ![COLOR SENSOR-TCS3200](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COLOR-SENSOR-TCS3200.jpg)
-- **Benefits:**  
-  The TCS3200 is a color sensor that can detect the color and intensity of light. It is useful in applications where color recognition is needed, such as object sorting or signal identification in autonomous systems.
+- **Beneficios:**  
+  El TCS3200 es un sensor de color que puede detectar el color y la intensidad de la luz. Es útil en aplicaciones donde se necesita el reconocimiento de colores, como la clasificación de objetos o la identificación de señales en sistemas autónomos.
 
 ### Ackerman's
 
-We implemented the Ackerman steering principle to ensure that the car's wheels follow the correct path during turns, minimizing tire wear and improving overall handling. This mechanism was fine-tuned to work seamlessly with our control algorithms.
+Implementamos el principio de dirección de Ackerman para asegurar que las ruedas del coche sigan la trayectoria correcta durante los giros, minimizando el desgaste de los neumáticos y mejorando el manejo general. Este mecanismo fue ajustado para trabajar sin problemas con nuestros algoritmos de control.
 
 ## Software
 
-The software aspect of the project is critical to the car’s ability to navigate autonomously. Our software stack includes modules for sensor data processing, decision-making, and actuation, all running on a real-time operating system to ensure quick and reliable performance.
+El aspecto del software en el proyecto es fundamental para la capacidad del coche de navegar de forma autónoma. Nuestro stack de software incluye módulos para el procesamiento de datos de sensores, toma de decisiones y actuación, todos ejecutándose en un sistema operativo en tiempo real para asegurar un rendimiento rápido y confiable.
 
 ### Sensors
 
-We employed a variety of sensors, including LiDAR, cameras, and ultrasonic sensors, to gather environmental data. This information is processed in real-time to detect obstacles, determine position, and plan the car's path.
+Utilizamos una variedad de sensores que son fundamentales para el correcto funcionamiento del coche autónomo en la competencia:
+
+- **7 Sensores TOF VL53LOX:** Utilizados para la detección precisa de obstáculos, estos sensores ayudan a que el coche pueda evitar colisiones y navegar a través de entornos complejos.
+- **1 Sensor de Color TCS3200:** Empleado para detectar señales de color en la pista, crucial para la interpretación de marcadores de ruta o zonas específicas.
+- **1 Giroscopio MPU 6050:** Proporciona información vital sobre la orientación y estabilidad del vehículo, permitiendo ajustes precisos durante la navegación.
 
 ### Position
 
-Accurate positioning is crucial for the car's navigation. We combined GPS data with sensor input to determine the car's exact location, allowing it to navigate complex environments with high precision.
+El posicionamiento preciso es fundamental para que el coche autónomo pueda cumplir con las exigencias de la competencia. Para lograrlo, combinamos los siguientes componentes:
+
+- **1 GPS (integrado con ESP32):** El GPS proporciona datos de ubicación general, que se combinan con la información de los sensores para obtener una posición más precisa.
+- **1 Giroscopio MPU 6050:** Contribuye a la estabilización del coche y proporciona datos de orientación que complementan los datos de GPS para una navegación más precisa.
 
 ### Strategy
 
-The strategy module is responsible for making high-level decisions, such as path planning and obstacle avoidance. It uses advanced algorithms to calculate the most efficient and safest route to the destination.
+El módulo de estrategia es responsable de tomar decisiones cruciales para la competencia, como la planificación de rutas y la evitación de obstáculos
 
-## Photos
-
-### Car images
-
-Here are some images of the car at various stages of development and testing, showcasing the design and functionality of the autonomous system.
-
-### Team images
-
-Meet the team behind the TUMI-AQP WRO 2024 project. These images capture the hard work and dedication of our team members as they bring the project to life.
-
-## Videos
-
-### Demonstration videos
-
-Watch our demonstration videos to see the car in action. These videos highlight the car's autonomous capabilities, including obstacle avoidance, path following, and more.
-
-## Legal
-
-### License
-
-This project is licensed under the MIT License, allowing for open-source collaboration and development. Feel free to use and modify our code and designs, but please give credit to the original authors.
-
-### Credits
-
-This project was made possible through the efforts of the TUMI-AQP team, with support from our mentors, sponsors, and the broader community. Special thanks to everyone who contributed to the success of this project.
