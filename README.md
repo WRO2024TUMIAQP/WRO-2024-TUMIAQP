@@ -60,18 +60,35 @@ In this section, you can explore a variety of customized 3D models and 3D prints
 
 The electronics system was carefully designed to integrate all sensors and actuators with the central processing unit. We used a custom PCB to streamline connections and reduce the chances of wiring errors, which could lead to system failures.
 #### ESP-32
--  ![ESP-32](/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32.jpeg)
+![ESP-32](/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32.jpeg)
+- **Benefits:**  
+  The ESP-32 is a powerful microcontroller with Wi-Fi and Bluetooth connectivity, ideal for applications requiring wireless communication. Its low power consumption and processing capabilities make it perfect for automation and remote control projects.
+
 #### ESP32 CAM
--  ![ESP32 CAM-1](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32_CAM-1.jpeg)
- ![ESP32 CAM-2](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32_CAM-2.jpeg)
+![ESP32 CAM-1](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32_CAM-1.jpeg)
+![ESP32 CAM-2](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ESP-32_CAM-2.jpeg)
+- **Benefits:**  
+  The ESP32 CAM combines the ESP32's capabilities with an integrated camera, enabling image and video capture. This is especially useful in vision systems for robotics and surveillance projects, providing a cost-effective and compact solution.
+
 #### SERVOMOTOR-MG995
-- ![SERVOMOTOR-MG995](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/SERVOMOTOR-MG995.png)
+![SERVOMOTOR-MG995](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/SERVOMOTOR-MG995.png)
+- **Benefits:**  
+  The MG995 servomotor is known for its high torque and precision, making it ideal for applications requiring accurate movement control, such as steering in autonomous vehicles or robotic systems.
+
 #### GYROSCOPE-MPU6050
-- ![GYROSCOPE-MPU6050](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/GIROSCOPIO-MPU6050.jpg)
+![GYROSCOPE-MPU6050](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/GIROSCOPIO-MPU6050.jpg)
+- **Benefits:**  
+  The MPU6050 is a motion sensor that combines a gyroscope and an accelerometer. It is crucial for measuring orientation and stability, allowing precise navigation and effective balance control in the vehicle.
+
 #### TOF-VL53LOX
-- ![TOF-VL53LOX](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-VL53LOX.png)
+![TOF-VL53LOX](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-VL53LOX.png)
+- **Benefits:**  
+  The VL53LOX distance sensor uses time-of-flight (ToF) technology to measure distances with high accuracy. It is essential for real-time obstacle detection and environment mapping, enhancing the vehicle's ability to avoid collisions.
+
 #### COLOR SENSOR-TCS3200
-- ![COLOR SENSOR-TCS3200](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COLOR-SENSOR-TCS3200.jpg)
+![COLOR SENSOR-TCS3200](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COLOR-SENSOR-TCS3200.jpg)
+- **Benefits:**  
+  The TCS3200 is a color sensor that can detect the color and intensity of light. It is useful in applications where color recognition is needed, such as object sorting or signal identification in autonomous systems.
 
 ### Ackerman's
 
