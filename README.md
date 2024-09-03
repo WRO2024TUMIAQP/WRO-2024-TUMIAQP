@@ -13,17 +13,7 @@
   - [Ackerman's](#ackermans)
 - [Software](#software)
   - [Sensors](#sensors)
-  - [Position](#position)
-  - [Strategy](#strategy)
-- [Photos](#photos)
-  - [Car images](#car-images)
-  - [Team images](#team-images)
-- [Videos](#videos)
-  - [Demonstration videos](#demonstration-videos)
-- [Legal](#legal)
-  - [License](#license)
-  - [Credits](#credits)
-
+  - [Position and Strategy](#position_and_strategy)
 ### Components
 
 En esta sección, detallamos los componentes clave utilizados en la construcción del coche, incluidos sensores, actuadores y controladores. Cada componente fue seleccionado para asegurar el más alto nivel de precisión y confiabilidad en la conducción autónoma durante la competencia.
