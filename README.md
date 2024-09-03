@@ -22,7 +22,7 @@ En esta sección, detallamos los componentes clave utilizados en la construcció
 
 #### Motores y Actuadores
 - **2 Motores N20 800RPM:** Proporcionan la fuerza motriz necesaria para el movimiento del coche. Estos motores son compactos y potentes, ideales para la maniobrabilidad en la pista de competencia.
-- **1 Servomotor MG90S:** Utilizado para controlar el sistema de dirección, este servomotor permite giros precisos, siguiendo el principio de dirección de Ackerman.
+- **1 Servomotor MG995:** Utilizado para controlar el sistema de dirección, este servomotor permite giros precisos, siguiendo el principio de dirección de Ackerman.
 
 #### Energía
 - **1 Batería de 11.1V 1500mAh:** Proporciona la energía necesaria para todos los componentes electrónicos, garantizando una operación continua durante las pruebas y desafíos.
