@@ -39,7 +39,7 @@ Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxit
    - 2.1.4. [🔌 Conectores y Cables](#214-🔌ConectoresyCables)
    - 2.1.5. [🛠️ Herramientas y Adhesivos](#215-🛠️HerramientasyAdhesivos)
    - 2.1.6. [💡 Otros Componentes Electrónicos](#216-💡OtrosComponentesElectrónicos)
-   - 2.1.7. [ELECTRÓNICA](#217-ELECTRÓNICA)
+   - 2.1.7. [💡 ELECTRÓNICA](#217-ELECTRÓNICA)
    - 2.1.3. [Mecanismo de Ackerman](#218-mecanismo-de-ackerman)
 
 ## 2.🛠️ Hardware
