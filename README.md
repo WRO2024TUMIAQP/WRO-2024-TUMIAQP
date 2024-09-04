@@ -29,14 +29,14 @@ Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxit
 ## Índice
 
 1. [Hardware](#1-hardware)
-   1.1. [Componentes](#11-componentes)
-   1.2. [Modelos](#12-modelos)
-   1.3. [Electrónica](#13-electrónica)
-   1.4. [Mecanismo de Ackerman](#14-mecanismo-de-ackerman)
+   - 1.1. [Componentes](#11-componentes)
+   - 1.2. [Modelos](#12-modelos)
+   - 1.3. [Electrónica](#13-electrónica)
+   - 1.4. [Mecanismo de Ackerman](#14-mecanismo-de-ackerman)
 
 2. [Software](#2-software)
-   2.1. [Sensores](#21-sensores)
-   2.2. [Posicionamiento y Estrategia](#22-posicionamiento-y-estrategia)
+   - 2.1. [Sensores](#21-sensores)
+   - 2.2. [Posicionamiento y Estrategia](#22-posicionamiento-y-estrategia)
 
 ## 1. 🛠️ Hardware
 
