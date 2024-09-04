@@ -21,7 +21,7 @@ Somos un equipo apasionado por la **Robótica** y la **Ingeniería**, compuesto 
 Contamos con el apoyo incondicional de nuestros mentores:
 
 - **Cristian** - Ingeniedo sobrecalificado de la rama mecatronica.
-- **Bruno** - Especialista en sistemas, automatización y Director de disntintos proyectos.
+- **Bruno** - Especialista en sistemas, automatización y Director de distintos proyectos.
 
 Su experiencia y conocimientos son fundamentales en nuestro camino hacia el éxito en la competencia.
 
