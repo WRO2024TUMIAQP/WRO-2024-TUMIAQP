@@ -4,11 +4,11 @@
 
 ![TEAM TUMI](/T-PHOTOS/Formal-photo.jpg)
 
-# 🤖 Equipo WRO 2024 - Futuros Ingenieros
+# 1. 🤖 Equipo WRO 2024 - Futuros Ingenieros
 
 ¡Bienvenidos al repositorio del equipo **Futuros Ingenieros** de la **WRO 2024** representando a **Arequipa, Perú**! 🇵🇪
 
-## 🌟 Sobre Nosotros
+## 1.1 🌟 Sobre Nosotros
 
 | **Nombre**                        | **Rol**                                      | **Descripción**                                                               |
 |-----------------------------------|----------------------------------------------|--------------------------------------------------------------------------------|
@@ -18,7 +18,7 @@
 | **Cristian Villca Balcón**        | **Mentor**                                   | **Experto en robótica que nos guía con su vasta experiencia.**                 |
 | **Bruno Layme Carpio**            | **Mentor**                                   | **Especialista en sistemas y automatización que refuerza nuestras habilidades.**|
 
-## 🚀 Nuestro Objetivo
+## 1.2 🚀 Nuestro Objetivo
 
 Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxito en la **WRO 2024**. ¡Vamos con todo!
 
@@ -28,7 +28,7 @@ Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxit
 
 ## Índice
 
-1. [Hardware](#1-hardware)
+1. [🤖 Equipo WRO 2024](#1-🤖 Equipo WRO 2024 - Futuros Ingenieros)
    - 1.1. [Componentes](#11-componentes)
    - 1.2. [Modelos](#12-modelos)
    - 1.3. [Electrónica](#13-electrónica)
@@ -38,11 +38,11 @@ Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxit
    - 2.1. [Sensores](#21-sensores)
    - 2.2. [Posicionamiento y Estrategia](#22-posicionamiento-y-estrategia)
 
-## 1. 🛠️ Hardware
+## 2.🛠️ Hardware
 
 En esta sección, describimos los materiales clave utilizados en la construcción de nuestro coche autónomo. Cada material fue cuidadosamente seleccionado para asegurar la máxima precisión y fiabilidad durante la competencia.
 
-### 1.1. 🔧 Componentes
+## 2.1. 🔧 Componentes
 
 - **2 x N20 Motors (800RPM):**  
   Estos motores compactos y potentes proporcionan la fuerza de conducción necesaria para el movimiento del coche, asegurando una excelente maniobrabilidad en la pista de competencia.
@@ -50,7 +50,7 @@ En esta sección, describimos los materiales clave utilizados en la construcció
 - **1 x MG995 Servo Motor:**  
   Utilizado para controlar el sistema de dirección, este servo motor permite giros precisos, siguiendo el principio de dirección de Ackerman.
 
-### 1.2. ⚡ Fuente de Poder
+### 2.2. ⚡ Fuente de Poder
 
 - **1 x 11.1V 1500mAh Battery:**  
   Alimenta todos los componentes electrónicos, asegurando operación continua durante las pruebas y desafíos.
@@ -58,7 +58,7 @@ En esta sección, describimos los materiales clave utilizados en la construcció
 - **1 x LM2596 DC-DC Voltage Converter:**  
   Ajusta el voltaje de la batería para alimentar correctamente los diferentes componentes del sistema.
 
-### 1.3. 🧠 Microcontroladores y Comunicación
+### 2.3. 🧠 Microcontroladores y Comunicación
 
 - **1 x ESP32:**  
   El cerebro del coche autónomo, este microcontrolador maneja la lógica de control y la comunicación con los sensores y actuadores.
@@ -66,7 +66,7 @@ En esta sección, describimos los materiales clave utilizados en la construcció
 - **1 x ESP32-CAM con Módulo Flash:**  
   Añade capacidades de visión al coche, permitiendo la captura de imágenes y videos, útil para sistemas de visión artificial durante la competencia.
 
-### 1.4. 🧱 Materiales de Construcción
+### 2.4. 🧱 Materiales de Construcción
 
 - **800g de Filamento PLA:**  
   Utilizado en la impresión 3D de la estructura del coche, proporcionando un chasis ligero pero fuerte.
@@ -74,7 +74,7 @@ En esta sección, describimos los materiales clave utilizados en la construcció
 - **1 x PCB de Cobre de 10x15cm:**  
   Diseñada a medida para conectar eficientemente todos los componentes electrónicos, reduciendo la posibilidad de errores de cableado.
 
-### 1.5. 🔌 Conectores y Cables
+### 2.5. 🔌 Conectores y Cables
 
 - **1 x Paquete de Cables Dupont Hembra y Macho:**  
   Utilizados para interconectar los componentes electrónicos, asegurando conexiones firmes y seguras.
@@ -85,7 +85,7 @@ En esta sección, describimos los materiales clave utilizados en la construcció
 - **1 x Paquete de Tornillos M3 (100 piezas, Hembra y Macho):**  
   Utilizados para asegurar todas las piezas y componentes en su lugar.
 
-### 1.6. 🛠️ Herramientas y Adhesivos
+### 2.6. 🛠️ Herramientas y Adhesivos
 
 - **1 x Kit de Soldadura (Soldador de 30W, Estaño):**  
   Esencial para realizar conexiones permanentes y asegurar la integridad del circuito.
@@ -93,7 +93,7 @@ En esta sección, describimos los materiales clave utilizados en la construcció
 - **2 x Tubos de Pegamento (Triz) y 1 x 100g de Bicarbonato de Sodio:**  
   Utilizados para asegurar piezas pequeñas y realizar reparaciones rápidas.
 
-### 1.7. 💡 Otros Componentes Electrónicos
+### 2.7. 💡 Otros Componentes Electrónicos
 
 - **1 x Driver H-Bridge TB6612FNG:**  
   Controla la dirección y velocidad de los motores, permitiendo un manejo preciso del coche.
@@ -101,7 +101,14 @@ En esta sección, describimos los materiales clave utilizados en la construcció
 - **1 x Interruptor Deslizante de Dos Posiciones:**  
   Utilizado para encender y apagar el sistema de manera segura.
 
-### 1.8. Modelos
+### 2.8. ELECTRÓNICA
+
+El sistema electrónico fue cuidadosamente diseñado para integrar todos los sensores y actuadores con la unidad central de procesamiento. Usamos una PCB personalizada para simplificar las conexiones y reducir las posibilidades de errores de cableado, lo que podría llevar a fallos en el sistema.
+
+![First Part of Components](V-PHOTOS/COMPONENTS/FIRST_PART_OF_COMPONENTS.png)
+![Second Part of Components](V-PHOTOS/COMPONENTS/SECOND_PART_OF_COMPONENTS.png)
+
+### 3. Modelos
 
 Desarrollamos modelos 3D del coche para simular su comportamiento y rendimiento bajo diversas condiciones. Estos modelos ayudaron a afinar el diseño antes de la producción real, ahorrando tanto tiempo como recursos.
 
@@ -112,14 +119,7 @@ En esta sección, puedes explorar una variedad de modelos 3D personalizados y pi
 > [!TIP]
 > Puedes encontrar los archivos de diseño para las piezas impresas en 3D en la carpeta [/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D](./V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D) del repositorio.
 
-### 1.9. ELECTRÓNICA
-
-El sistema electrónico fue cuidadosamente diseñado para integrar todos los sensores y actuadores con la unidad central de procesamiento. Usamos una PCB personalizada para simplificar las conexiones y reducir las posibilidades de errores de cableado, lo que podría llevar a fallos en el sistema.
-
-![First Part of Components](V-PHOTOS/COMPONENTS/FIRST_PART_OF_COMPONENTS.png)
-![Second Part of Components](V-PHOTOS/COMPONENTS/SECOND_PART_OF_COMPONENTS.png)
-
-#### PLACA PCB  
+#### 3. PLACA PCB  
 ![PLACA PCB](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/PCB/PLACA_PCB.png)
 
 Diseñamos una placa PCB para consolidar todos los componentes electrónicos del robot autónomo en una estructura compacta y ordenada, minimizando errores de conexión y mejorando la eficiencia del sistema. Esta placa nos permite integrar de manera efectiva el ESP32, que procesa la información de los sensores y controla los actuadores. Los 7 sensores TOF VL53L0X miden distancias con precisión, y el sensor de color TCS3200 detecta señales visuales en la pista. Además, el giroscopio MPU6050 garantiza la estabilidad del robot, mientras que la ESP32 CAM captura imágenes del entorno. El servomotor MG995, controlado por el driver H-Bridge TB6612FNG.
