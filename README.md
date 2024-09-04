@@ -28,17 +28,17 @@ Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxit
 
 ## Índice
 
-1. [🤖 Equipo WRO 2024](#1-🤖EquipoWRO2024-FuturosIngenieros)
-   - 1.1. [🌟 Sobre Nosotros](#11-🌟SobreNosotros)
-   - 1.2. [🚀 Nuestro Objetivo](#12-🚀NuestroObjetivo)
-2. [🛠️ Hardware](#2-🛠️Hardware)
+1. [🤖 Equipo WRO 2024](#1-EquipoWRO2024-FuturosIngenieros)
+   - 1.1. [🌟 Sobre Nosotros](#11-SobreNosotros)
+   - 1.2. [🚀 Nuestro Objetivo](#12-NuestroObjetivo)
+2. [🛠️ Hardware](#2-Hardware)
    - 2.1. [🔧 Componentes](#21-🔧Componentes)
-   - 2.1.1. [⚡ Fuente de Poder](#211-⚡FuentedePoder)
-   - 2.1.2. [🧠 Microcontroladores y Comunicación](#212-🧠MicrocontroladoresyComunicación)
-   - 2.1.3. [🧱 Materiales de Construcción](#213-🧱MaterialesdeConstrucción)
-   - 2.1.4. [🔌 Conectores y Cables](#214-🔌ConectoresyCables)
-   - 2.1.5. [🛠️ Herramientas y Adhesivos](#215-🛠️HerramientasyAdhesivos)
-   - 2.1.6. [💡 Otros Componentes Electrónicos](#216-💡OtrosComponentesElectrónicos)
+   - 2.1.1. [⚡ Fuente de Poder](#211-FuentedePoder)
+   - 2.1.2. [🧠 Microcontroladores y Comunicación](#212-MicrocontroladoresyComunicación)
+   - 2.1.3. [🧱 Materiales de Construcción](#213-MaterialesdeConstrucción)
+   - 2.1.4. [🔌 Conectores y Cables](#214-ConectoresyCables)
+   - 2.1.5. [🛠️ Herramientas y Adhesivos](#215-HerramientasyAdhesivos)
+   - 2.1.6. [💡 Otros Componentes Electrónicos](#216-OtrosComponentesElectrónicos)
    - 2.1.7. [💡 ELECTRÓNICA](#217-ELECTRÓNICA)
    - 2.1.3. [Mecanismo de Ackerman](#218-mecanismo-de-ackerman)
 
