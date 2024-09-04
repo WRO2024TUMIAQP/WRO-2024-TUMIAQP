@@ -10,20 +10,13 @@
 
 ## 🌟 Sobre Nosotros
 
-Somos un equipo apasionado por la **Robótica** y la **Ingeniería**, compuesto por:
-
-- **Joshua Huillca** -   Nuestro analista técnico, siempre listo para desentrañar cualquier desafío 🔍.
-- **Lucy Nommeacuerdo xD** - La mente creativa y técnica detrás del Modelado 3D encargada del Marketing 🎨.
-- **Gabriel Palomino** - Especializado en la administracion de la Documentacion ademas de Matematicas complejas🔧.
-
-## 🧑‍🏫 Mentores
-
-Contamos con el apoyo incondicional de nuestros mentores:
-
-- **Cristian** - Ingeniedo sobrecalificado de la rama mecatronica.
-- **Bruno** - Especialista en sistemas, automatización y Director de distintos proyectos.
-
-Su experiencia y conocimientos son fundamentales en nuestro camino hacia el éxito en la competencia.
+| **Nombre**                        | **Rol**                                      | **Descripción**                                                               |
+|-----------------------------------|----------------------------------------------|--------------------------------------------------------------------------------|
+| **Joshua Huillca Fuentes**        | **Estratega y Analista Técnico**             | **El cerebro estratégico que siempre encuentra la mejor solución.**            |
+| **Lucy Pérez Casazola**           | **Creativa y Diseñadora Técnica**            | **La mente creativa que da vida a nuestros diseños innovadores.**              |
+| **Gabriel Palomino Mendoza**      | **Electrónica, Programación y Optimización** | **Especialista en electrónica y optimización de sistemas complejos.**          |
+| **Cristian Villca Balcón**        | **Mentor**                                   | **Experto en robótica que nos guía con su vasta experiencia.**                 |
+| **Edgard Layme Carpio**           | **Mentor**                                   | **Especialista en sistemas y automatización que refuerza nuestras habilidades.**|
 
 ## 🚀 Nuestro Objetivo
 
