@@ -4,7 +4,35 @@
 
 ![TEAM TUMI](/T-PHOTOS/Formal-photo.jpg)
 
-Somos el equipo de la WRO 2024 en la categoría Futuros Ingenieros de Perú mas especificamente la región Arequipa, formado por Joshua, Lucy, y Gabriel. Nos une nuestra pasión por la robótica y la ingeniería, lo que nos impulsa a trabajar en equipo para lograr grandes cosas. Joshua se dedica a resolver problemas complejos, Lucy aporta creatividad y habilidades técnicas en el diseño, y Gabriel se enfoca en la electrónica, programacion y la optimización de nuestro robot. Contamos con el apoyo de nuestros mentores, Cristian y Bruno, quienes con su experiencia en robótica y tecnología, nos guían y fortalecen en nuestro camino hacia el éxito en la competencia.
+# 🤖 Equipo WRO 2024 - Futuros Ingenieros
+
+¡Bienvenidos al repositorio del equipo **Futuros Ingenieros** de la **WRO 2024** representando a **Arequipa, Perú**! 🇵🇪
+
+## 🌟 Sobre Nosotros
+
+Somos un equipo apasionado por la **Robótica** y la **Ingeniería**, compuesto por:
+
+- **Joshua Huillca** -   Nuestro analista técnico, siempre listo para desentrañar cualquier desafío 🔍.
+- **Lucy Nommeacuerdo xD** - La mente creativa y técnica detrás del Modelado 3D encargada del Marketing 🎨.
+- **Gabriel Palomino** - Especializado en la administracion de la Documentacion ademas de Matematicas complejas🔧.
+
+## 🧑‍🏫 Mentores
+
+Contamos con el apoyo incondicional de nuestros mentores:
+
+- **Cristian** - Ingeniedo sobrecalificado de la rama mecatronica.
+- **Bruno** - Especialista en sistemas, automatización y Director de disntintos proyectos.
+
+Su experiencia y conocimientos son fundamentales en nuestro camino hacia el éxito en la competencia.
+
+## 🚀 Nuestro Objetivo
+
+Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxito en la **WRO 2024**. ¡Vamos con todo!
+
+---
+
+> **Nota:** Este repositorio contiene toda la información relacionada con nuestro proyecto en la WRO 2024, incluyendo códigos, diseños y documentación técnica.
+
 
 ## Contents
 
