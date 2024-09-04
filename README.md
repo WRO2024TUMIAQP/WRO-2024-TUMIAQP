@@ -37,38 +37,62 @@ Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxit
 - [Software](#software)
   - [Sensors](#sensors)
   - [Position and Strategy](#position_and_strategy)
-### Components
+## 🛠️ Materials Used
 
-En esta sección, detallamos los componentes clave utilizados en la construcción del coche, incluidos sensores, actuadores y controladores. Cada componente fue seleccionado para asegurar el más alto nivel de precisión y confiabilidad en la conducción autónoma durante la competencia.
+In this section, we outline the key materials used in the construction of our autonomous car. Each material was carefully selected to ensure the highest level of precision and reliability during the competition.
 
-#### Motores y Actuadores
-- **2 Motores N20 800RPM:** Proporcionan la fuerza motriz necesaria para el movimiento del coche. Estos motores son compactos y potentes, ideales para la maniobrabilidad en la pista de competencia.
-- **1 Servomotor MG995:** Utilizado para controlar el sistema de dirección, este servomotor permite giros precisos, siguiendo el principio de dirección de Ackerman.
+### 🔧 Motors and Actuators
+- **2 x N20 Motors (800RPM):**  
+  These compact and powerful motors provide the necessary driving force for the car's movement, ensuring excellent maneuverability on the competition track.
+  
+- **1 x MG995 Servo Motor:**  
+  Used to control the steering system, this servo motor enables precise turns, following the Ackerman steering principle.
 
-#### Energía
-- **1 Batería de 11.1V 1500mAh:** Proporciona la energía necesaria para todos los componentes electrónicos, garantizando una operación continua durante las pruebas y desafíos.
-- **1 Convertidor de Voltaje DC-DC LM2596:** Ajusta el voltaje de la batería para alimentar adecuadamente los diferentes componentes del sistema.
+### ⚡ Power Supply
+- **1 x 11.1V 1500mAh Battery:**  
+  Powers all the electronic components, ensuring continuous operation during tests and challenges.
+  
+- **1 x LM2596 DC-DC Voltage Converter:**  
+  Adjusts the battery voltage to properly power the different system components.
 
-#### Microcontroladores y Comunicación
-- **1 ESP 32:** El cerebro del coche autónomo. Este microcontrolador gestiona la lógica de control y la comunicación con los sensores y actuadores.
-- **1 ESP 32 CAM y Módulo de Carga de Código:** Añade capacidades de visión al coche, permitiendo la captura de imágenes y videos, lo que puede ser útil para sistemas de visión artificial en la competencia.
+### 🧠 Microcontrollers and Communication
+- **1 x ESP32:**  
+  The brain of the autonomous car, this microcontroller handles control logic and communication with sensors and actuators.
+  
+- **1 x ESP32-CAM with Flash Module:**  
+  Adds vision capabilities to the car, allowing for image and video capture, which can be useful for artificial vision systems during the competition.
 
-#### Materiales de Construcción
-- **800 gramos de Filamento PLA:** Utilizado en la impresión 3D de la estructura del coche, proporcionando un chasis ligero pero resistente.
-- **1 Placa PCB de Cobre (10x15 cm):** Personalizada para conectar de manera eficiente todos los componentes electrónicos, reduciendo la posibilidad de errores de cableado.
+### 🧱 Construction Materials
+- **800g of PLA Filament:**  
+  Used in the 3D printing of the car's structure, providing a lightweight yet strong chassis.
+  
+- **1 x 10x15cm Copper PCB Board:**  
+  Custom-designed to efficiently connect all electronic components, reducing the possibility of wiring errors.
 
-#### Conectores y Cables
-- **1 Paquete de Cables Dupont Hembra y Macho:** Utilizados para interconectar los componentes electrónicos, asegurando conexiones firmes y seguras.
-- **1 Paquete de Jumpers (Hembra-Macho, Hembra-Hembra, Macho-Macho) 15 cm:** Proporcionan flexibilidad en la configuración de los circuitos.
-- **1 Paquete de Tornillos M3 (100 piezas Hembra y Macho):** Para asegurar todas las piezas y componentes en su lugar.
+### 🔌 Connectors and Wires
+- **1 x Pack of Female and Male Dupont Wires:**  
+  Used to interconnect electronic components, ensuring firm and secure connections.
+  
+- **1 x Pack of 15cm Jumper Wires (Female-Female, Male-Male, Female-Male):**  
+  Provides flexibility in circuit configuration.
+  
+- **1 x Pack of M3 Screws (100 pieces, Female and Male):**  
+  Used to securely fasten all parts and components in place.
 
-#### Herramientas y Adhesivos
-- **1 Kit de Soldadura (Cautín de 30W, Estaño):** Necesario para realizar conexiones permanentes y asegurar la integridad de los circuitos.
-- **2 Pegamentos (Triz) y 1 Bicarbonato de Sodio 100g:** Utilizados para asegurar piezas pequeñas y realizar reparaciones rápidas.
+### 🛠️ Tools and Adhesives
+- **1 x Soldering Kit (30W Soldering Iron, Tin):**  
+  Essential for making permanent connections and ensuring circuit integrity.
+  
+- **2 x Glue Tubes (Triz) and 1 x 100g Baking Soda:**  
+  Used to secure small parts and make quick repairs.
 
-#### Otros Componentes Electrónicos
-- **1 Driver H-Bridge (TB6612FNG):** Controla la dirección y velocidad de los motores, permitiendo un manejo preciso del coche.
-- **1 Interruptor Deslizante de Dos Posiciones:** Utilizado para encender y apagar el sistema de manera segura.
+### 💡 Other Electronic Components
+- **1 x TB6612FNG H-Bridge Driver:**  
+  Controls motor direction and speed, allowing precise car handling.
+  
+- **1 x Two-Position Slide Switch:**  
+  Used to safely turn the system on and off.
+
 
 ### Models
 
