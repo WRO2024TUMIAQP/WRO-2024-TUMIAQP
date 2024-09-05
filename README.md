@@ -29,7 +29,7 @@ Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxit
 ## Índice
 
 - [ 1. 🤖 Equipo WRO 2024 - Futuros Ingenieros](#1-equipo-wro-2024---futuros-ingenieros)
-  - [1.1 Sobre Nosotros](#11-sobre-nosotros)
+  - [1.1 🌟 Sobre Nosotros](#11-sobre-nosotros)
   - [1.2 🚀 Nuestro Objetivo](#12-nuestro-objetivo)
 - [2. 🛠️ Hardware](#2-hardware)
   - [2.1 🔧 Componentes](#21-componentes)
