@@ -105,6 +105,9 @@ En esta sección, puedes explorar una variedad de modelos 3D personalizados y pi
 #### 3. PLACA PCB  
 ![PLACA PCB](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/PCB/PLACA_PCB.png)
 
+> [!NOTE]
+> Puedes ver el modelo 2D o 3D de la placa en la pagina web de Flux (herramienta que utilizamos para su diseño) https://www.flux.ai/brunolc/roversa?editor=pcb_2d
+
 Diseñamos una placa PCB para consolidar todos los componentes electrónicos del robot autónomo en una estructura compacta y ordenada, minimizando errores de conexión y mejorando la eficiencia del sistema. Esta placa nos permite integrar de manera efectiva el ESP32, que procesa la información de los sensores y controla los actuadores. Los 7 sensores TOF VL53L0X miden distancias con precisión, y el sensor de color TCS3200 detecta señales visuales en la pista. Además, el giroscopio MPU6050 garantiza la estabilidad del robot, mientras que la ESP32 CAM captura imágenes del entorno. El servomotor MG995, controlado por el driver H-Bridge TB6612FNG.
 
 ### 1.10. Mecanismo de Ackerman
