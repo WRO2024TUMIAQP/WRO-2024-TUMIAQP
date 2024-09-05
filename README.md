@@ -135,8 +135,10 @@ El TOF frontal detecta obstáculos y guía la trayectoria a una distancia de 30 
 ## 4.2. Second Phase
 Los sensores TOF frontales y laterales anticipan las esquinas detectando cambios en la distancia y ángulo, generando una señal de activación para el giro preciso del vehículo en el momento adecuado, basado en las lecturas de los TOF frontales laterales 30°.
 
+![Third phase of the system ](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-System/Third-Phase.png)
+
 ## 4.3. Third phase
-El sistema Ackerman ajusta los ángulos de las ruedas para realizar giros suaves y precisos, apoyándose en los datos de los sensores TOF para asegurar que el vehículo siga la trayectoria correcta durante las curvas en la pista.
+El sistema Ackerman ajusta los ángulos de las ruedas para realizar giros suaves y precisos, apoyándose en los datos del resto de sensores TOF para asegurar que el vehículo siga la trayectoria correcta durante las curvas en la pista ajustando la distancia a 50 cm contra la pared.
 
 ## 4.4. Esp32 CAM
 
