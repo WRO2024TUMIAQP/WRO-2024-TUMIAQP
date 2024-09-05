@@ -42,6 +42,12 @@ Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxit
   - [3.1 PLACA PCB](#31-placa-pcb)
   - [3.2 Sistema Ackerman](#32-sistema-ackerman)
   - [3.3 Sistema Diferencial](#33-sistema-diferencial)
+- [4. TOF System](#4-tof-system)
+  - [4.1 First Phase](#41-first-phase)
+  - [4.2 Second Phase](#42-second-phase)
+  - [4.3 Third phase](#43-third-phase)
+-[5. Esp32 CAM](#5-esp32-cam)
+
 # 2. Hardware
 
 En esta sección, describimos los materiales clave utilizados en la construcción de nuestro coche autónomo. Cada material fue cuidadosamente seleccionado para asegurar la máxima precisión y fiabilidad durante la competencia.
@@ -140,6 +146,6 @@ Los sensores TOF frontales y laterales anticipan las esquinas detectando cambios
 ## 4.3. Third phase
 El sistema Ackerman ajusta los ángulos de las ruedas para realizar giros suaves y precisos, apoyándose en los datos del resto de sensores TOF para asegurar que el vehículo siga la trayectoria correcta durante las curvas en la pista ajustando la distancia a 50 cm contra la pared.
 
-## 4.4. Esp32 CAM
+# 5. Esp32 CAM
 
 
