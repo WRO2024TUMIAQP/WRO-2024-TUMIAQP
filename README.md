@@ -127,15 +127,15 @@ En el WRO2024 Future Engineers, el sistema diferencial es crucial para garantiza
 
 ![First phase of the system ](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-System/First-Phase.png)
 
-### 4.1.1.
+### 4.1.1. First Phase
 El TOF frontal detecta obstáculos y guía la trayectoria a una distancia de 30 cm, mientras que dos TOF adicionales especializados, colocados a 30° a cada lado del vehículo, detectan las esquinas del centro de la pista para mejorar la precisión en la detección de curvas.
 
 ![Second phase of the system ](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-System/Second-Phase.png)
 
-### 4.1.2.
+### 4.1.2. Second Phase
 Los sensores TOF frontales y laterales anticipan las esquinas detectando cambios en la distancia y ángulo, generando una señal de activación para el giro preciso del vehículo en el momento adecuado, basado en las lecturas de los TOF frontales laterales 30°.
 
-### 4.1.3.
+### 4.1.3. Third phase
 El sistema Ackerman ajusta los ángulos de las ruedas para realizar giros suaves y precisos, apoyándose en los datos de los sensores TOF para asegurar que el vehículo siga la trayectoria correcta durante las curvas en la pista.
 
 ### 4.2. Esp32 CAM
