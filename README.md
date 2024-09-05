@@ -28,20 +28,20 @@ Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxit
 
 ## Índice
 
-1. [Equipo WRO 2024 - Futuros Ingenieros](#1-equipo-wro-2024---futuros-ingenieros)
-   - [🌟 Sobre Nosotros](#11-🌟-sobre-nosotros)
-   - [🚀 Nuestro Objetivo](#12-🚀-nuestro-objetivo)
-2. [🛠️ Hardware](#2-🛠️-hardware)
-   2.1 [🔧 Componentes](#21-🔧-componentes)
-   2.2[⚡ Fuente de Poder](#211-⚡-fuente-de-poder)
-   2.3 [🧱 Materiales de Construcción](#212-🧱-materiales-de-construcción)
-   2.4 [Conectores y Cables](#24-conectores-y-cables)
-   2.5 [🛠️ Herramientas y Adhesivos](#214-🛠️-herramientas-y-adhesivos)
-   2.6 [💡 Otros Componentes Electrónicos](#215-💡-otros-componentes-electrónicos)
-3. [💻 Modelos](#3-💻-modelos)
-   3.1 [📐 Placa PCB](#31-📐-placa-pcb)
-   3.2 [🔄 Sistema Ackerman](#32-🔄-sistema-ackerman)
-   3.3 [⚙️ Sistema Diferencial](#33-⚙️-sistema-diferencial)
+- [Equipo WRO 2024 - Futuros Ingenieros](#equipo-wro-2024---futuros-ingenieros)
+- [🌟 Sobre Nosotros](#1-sobre-nosotros)
+  - [🚀 Nuestro Objetivo](#11-nuestro-objetivo)
+- [🛠️ Hardware](#2-hardware)
+  - [🔧 Componentes](#21-componentes)
+  - [⚡ Fuente de Poder](#22-fuente-de-poder)
+  - [🧱 Materiales de Construcción](#23-materiales-de-construcción)
+  - [Conectores y Cables](#24-conectores-y-cables)
+  - [🛠️ Herramientas y Adhesivos](#25-herramientas-y-adhesivos)
+  - [💡 Otros Componentes Electrónicos](#26-otros-componentes-electrónicos)
+- [💻 Modelos](#3-modelos)
+  - [📐 Placa PCB](#31-placa-pcb)
+  - [🔄 Sistema Ackerman](#32-sistema-ackerman)
+  - [⚙️ Sistema Diferencial](#33-sistema-diferencial)
 
 ## 2.🛠️ Hardware
 
