@@ -28,7 +28,7 @@ Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxit
 
 ## Índice
 
-1. [EquipoWRO2024FuturosIngenieros](#1-🤖-equipo-wro-2024---futuros-ingenieros)
+1. [EquipoWRO2024FuturosIngenieros](#1-equipo-wro-2024---futuros-ingenieros)
    - [🌟 Sobre Nosotros](#11-🌟-sobre-nosotros)
    - [🚀 Nuestro Objetivo](#12-🚀-nuestro-objetivo)
 2. [🛠️ Hardware](#2-🛠️-hardware)
