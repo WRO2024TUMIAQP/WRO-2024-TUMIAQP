@@ -2,7 +2,7 @@
 
 ### TUMI-AQP Repository for WRO 2024 Future Engineers
 
-![TEAM TUMI](/T-PHOTOS/Formal-photo.jpg)
+![TEAM TUMI](T-PHOTOS/logo.png)
 
 # 1. Equipo WRO 2024 - Futuros Ingenieros
 
