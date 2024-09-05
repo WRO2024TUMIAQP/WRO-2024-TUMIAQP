@@ -48,6 +48,7 @@ Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxit
   - [4.3 Third phase](#43-third-phase)
 -[5. Esp32 CAM](#5-esp32-cam)
 
+
 # 2. Hardware
 
 En esta sección, describimos los materiales clave utilizados en la construcción de nuestro coche autónomo. Cada material fue cuidadosamente seleccionado para asegurar la máxima precisión y fiabilidad durante la competencia.
