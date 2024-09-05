@@ -48,29 +48,18 @@ En esta sección, describimos los materiales clave utilizados en la construcció
 
 ## 2.1. 🔧 Componentes
 
-- **2 x N20 Motors (800RPM):**  
-  Estos motores compactos y potentes proporcionan la fuerza de conducción necesaria para el movimiento del coche, asegurando una excelente maniobrabilidad en la pista de competencia.
-
-- **1 x MG995 Servo Motor:**  
-  Utilizado para controlar el sistema de dirección, este servo motor permite giros precisos, siguiendo el principio de dirección de Ackerman.
+![First Part of Components](V-PHOTOS/COMPONENTS/FIRST_PART_OF_COMPONENTS.png)
+![Second Part of Components](V-PHOTOS/COMPONENTS/SECOND_PART_OF_COMPONENTS.png)
 
 ### 2.1.1. ⚡ Fuente de Poder
 
-- **1 x 11.1V 1500mAh Battery:**  
+- ** 11.1V 1500mAh Battery:**  
   Alimenta todos los componentes electrónicos, asegurando operación continua durante las pruebas y desafíos.
 
-- **1 x LM2596 DC-DC Voltage Converter:**  
+- ** LM2596 DC-DC Voltage Converter:**  
   Ajusta el voltaje de la batería para alimentar correctamente los diferentes componentes del sistema.
 
-### 2.1.2. 🧠 Microcontroladores y Comunicación
-
-- **1 x ESP32:**  
-  El cerebro del coche autónomo, este microcontrolador maneja la lógica de control y la comunicación con los sensores y actuadores.
-
-- **1 x ESP32-CAM con Módulo Flash:**  
-  Añade capacidades de visión al coche, permitiendo la captura de imágenes y videos, útil para sistemas de visión artificial durante la competencia.
-
-### 2.1.3. 🧱 Materiales de Construcción
+### 2.1.2. 🧱 Materiales de Construcción
 
 - **800g de Filamento PLA:**  
   Utilizado en la impresión 3D de la estructura del coche, proporcionando un chasis ligero pero fuerte.
@@ -78,7 +67,7 @@ En esta sección, describimos los materiales clave utilizados en la construcció
 - **1 x PCB de Cobre de 10x15cm:**  
   Diseñada a medida para conectar eficientemente todos los componentes electrónicos, reduciendo la posibilidad de errores de cableado.
 
-### 2.1.4. 🔌 Conectores y Cables
+### 2.1.3. 🔌 Conectores y Cables
 
 - **1 x Paquete de Cables Dupont Hembra y Macho:**  
   Utilizados para interconectar los componentes electrónicos, asegurando conexiones firmes y seguras.
@@ -89,7 +78,7 @@ En esta sección, describimos los materiales clave utilizados en la construcció
 - **1 x Paquete de Tornillos M3 (100 piezas, Hembra y Macho):**  
   Utilizados para asegurar todas las piezas y componentes en su lugar.
 
-### 2.1.5. 🛠️ Herramientas y Adhesivos
+### 2.1.4. 🛠️ Herramientas y Adhesivos
 
 - **1 x Kit de Soldadura (Soldador de 30W, Estaño):**  
   Esencial para realizar conexiones permanentes y asegurar la integridad del circuito.
@@ -97,20 +86,10 @@ En esta sección, describimos los materiales clave utilizados en la construcció
 - **2 x Tubos de Pegamento (Triz) y 1 x 100g de Bicarbonato de Sodio:**  
   Utilizados para asegurar piezas pequeñas y realizar reparaciones rápidas.
 
-### 2.1.6. 💡 Otros Componentes Electrónicos
-
-- **1 x Driver H-Bridge TB6612FNG:**  
-  Controla la dirección y velocidad de los motores, permitiendo un manejo preciso del coche.
+### 2.1.5. 💡 Otros Componentes Electrónicos
 
 - **1 x Interruptor Deslizante de Dos Posiciones:**  
   Utilizado para encender y apagar el sistema de manera segura.
-
-### 2.1.7. ELECTRÓNICA
-
-El sistema electrónico fue cuidadosamente diseñado para integrar todos los sensores y actuadores con la unidad central de procesamiento. Usamos una PCB personalizada para simplificar las conexiones y reducir las posibilidades de errores de cableado, lo que podría llevar a fallos en el sistema.
-
-![First Part of Components](V-PHOTOS/COMPONENTS/FIRST_PART_OF_COMPONENTS.png)
-![Second Part of Components](V-PHOTOS/COMPONENTS/SECOND_PART_OF_COMPONENTS.png)
 
 ### 3. Modelos
 
