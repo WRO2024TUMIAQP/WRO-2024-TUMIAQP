@@ -4,11 +4,11 @@
 
 ![TEAM TUMI](/T-PHOTOS/Formal-photo.jpg)
 
-# 1. 🤖 Equipo WRO 2024 - Futuros Ingenieros
+# 1. Equipo WRO 2024 - Futuros Ingenieros
 
 ¡Bienvenidos al repositorio del equipo **Futuros Ingenieros** de la **WRO 2024** representando a **Arequipa, Perú**! 🇵🇪
 
-## 1.1 🌟 Sobre Nosotros
+## 1.1 Sobre Nosotros
 
 | **Nombre**                        | **Rol**                                      | **Descripción**                                                               |
 |-----------------------------------|----------------------------------------------|--------------------------------------------------------------------------------|
@@ -18,7 +18,7 @@
 | **Cristian Villca Balcón**        | **Mentor**                                   | **Experto en robótica que nos guía con su vasta experiencia.**                 |
 | **Bruno Layme Carpio**            | **Mentor**                                   | **Especialista en sistemas y automatización que refuerza nuestras habilidades.**|
 
-## 1.2 🚀 Nuestro Objetivo
+## 1.2 Nuestro Objetivo
 
 Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxito en la **WRO 2024**. ¡Vamos con todo!
 
@@ -28,6 +28,8 @@ Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxit
 
 ## Índice
 
+- [ 1. 🤖 Equipo WRO 2024 - Futuros Ingenieros](#1-equipo-wro-2024---futuros-ingenieros)
+  - [1.2 🚀 Nuestro Objetivo](#12-nuestro-objetivo)
 - [2. 🛠️ Hardware](#2-hardware)
   - [2.1 🔧 Componentes](#21-componentes)
     - [2.1.1 ⚡ Fuente de Poder](#211-fuente-de-poder)
