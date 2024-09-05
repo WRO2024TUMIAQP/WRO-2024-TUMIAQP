@@ -124,24 +124,17 @@ En el WRO2024 Future Engineers, el sistema diferencial es crucial para garantiza
 ![MODEL 3D](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/Differential-System.jpg)
 
 
-## 2. Strategy
+### 4.1. TOF System
 
-El aspecto del software en el proyecto es fundamental para la capacidad del coche de navegar de forma autónoma. Nuestro stack de software incluye módulos para el procesamiento de datos de sensores, toma de decisiones y actuación, todos ejecutándose en un sistema operativo en tiempo real para asegurar un rendimiento rápido y confiable.
+### 4.1.1.
+El TOF frontal detecta obstáculos y guía la trayectoria a una distancia de 30 cm, mientras que dos TOF adicionales especializados, colocados a 30° a cada lado del vehículo, detectan las esquinas del centro de la pista para mejorar la precisión en la detección de curvas.
 
-### 2.1. Sensores
+### 4.1.2.
+Los sensores TOF frontales y laterales anticipan las esquinas detectando cambios en la distancia y ángulo, generando una señal de activación para el giro preciso del vehículo en el momento adecuado, basado en las lecturas de los TOF frontales laterales 30°.
 
-Utilizamos una variedad de sensores que son fundamentales para el correcto funcionamiento del coche autónomo en la competencia:
+### 4.1.3.
+El sistema Ackerman ajusta los ángulos de las ruedas para realizar giros suaves y precisos, apoyándose en los datos de los sensores TOF para asegurar que el vehículo siga la trayectoria correcta durante las curvas en la pista.
 
-- **7 Sensores TOF VL53LOX:**  
-  Utilizados para la detección precisa de obstáculos, estos sensores ayudan a que el coche pueda evitar colisiones y navegar a través de entornos complejos.
+### 4.2. Esp32 CAM
 
-- **1 Sensor de Color TCS3200:**  
-  Empleado para detectar señales de color en la pista, crucial para la interpretación de marcadores de ruta o zonas específicas.
-
-- **1 Giroscopio MPU6050:**  
-  Proporciona información vital sobre la orientación y estabilidad del vehículo, permitiendo ajustes precisos durante la navegación.
-
-### 2.2. Posicionamiento y Estrategia
-
-El posicionamiento preciso es fundamental para que el coche autónomo pueda cumplir con las exigencias de la competencia. Para lograrlo, combinamos los siguientes
 
