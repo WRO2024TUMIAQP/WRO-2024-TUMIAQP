@@ -4,6 +4,9 @@
 
 ![TEAM TUMI](T-PHOTOS/logo.png)
 
++ Team's Name: ***TumiAQP***
++ Car's Name: ***Lujobel***
+
 # 1. Equipo WRO 2024 - Futuros Ingenieros
 
 ¡Bienvenidos al repositorio del equipo **Futuros Ingenieros** de la **WRO 2024** representando a **Arequipa, Perú**! 🇵🇪
