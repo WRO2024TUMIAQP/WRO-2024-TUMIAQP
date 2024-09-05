@@ -11,6 +11,8 @@
 
 ¡Bienvenidos al repositorio del equipo **Futuros Ingenieros** de la **WRO 2024** representando a **Arequipa, Perú**! 🇵🇪
 
+![TEAM TUMI](T-PHOTOS/Formal-photo.jpg)
+
 ## 1.1 Sobre Nosotros
 
 | **Nombre**                        | **Rol**                                      | **Descripción**                                                               |
