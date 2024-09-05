@@ -125,7 +125,7 @@ En el WRO2024 Future Engineers, el sistema diferencial es crucial para garantiza
 ![MODEL 3D](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/Differential-System.jpg)
 
 
-## 2. Software
+## 2. Strategy
 
 El aspecto del software en el proyecto es fundamental para la capacidad del coche de navegar de forma autónoma. Nuestro stack de software incluye módulos para el procesamiento de datos de sensores, toma de decisiones y actuación, todos ejecutándose en un sistema operativo en tiempo real para asegurar un rendimiento rápido y confiable.
 
