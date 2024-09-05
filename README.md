@@ -28,21 +28,17 @@ Trabajamos en equipo para lograr grandes cosas, con la meta de alcanzar el éxit
 
 ## Índice
 
-- [Equipo WRO 2024 - Futuros Ingenieros](#equipo-wro-2024---futuros-ingenieros)
-- [🌟 Sobre Nosotros](#1-sobre-nosotros)
-  - [🚀 Nuestro Objetivo](#11-nuestro-objetivo)
-- [🛠️ Hardware](#2-hardware)
-  - [🔧 Componentes](#21-componentes)
-  - [⚡ Fuente de Poder](#22-fuente-de-poder)
-  - [🧱 Materiales de Construcción](#23-materiales-de-construcción)
-  - [Conectores y Cables](#24-conectores-y-cables)
-  - [🛠️ Herramientas y Adhesivos](#25-herramientas-y-adhesivos)
-  - [💡 Otros Componentes Electrónicos](#26-otros-componentes-electrónicos)
-- [💻 Modelos](#3-modelos)
-  - [📐 Placa PCB](#31-placa-pcb)
-  - [🔄 Sistema Ackerman](#32-sistema-ackerman)
-  - [⚙️ Sistema Diferencial](#33-sistema-diferencial)
-
+- [2. 🛠️ Hardware](#2-hardware)
+  - [2.1 🔧 Componentes](#21-componentes)
+    - [2.1.1 ⚡ Fuente de Poder](#211-fuente-de-poder)
+    - [2.1.2 🧱 Materiales de Construcción](#212-materiales-de-construcción)
+    - [2.1.3 🔌 Conectores y Cables](#213-conectores-y-cables)
+    - [2.1.4 🛠️ Herramientas y Adhesivos](#214-herramientas-y-adhesivos)
+    - [2.1.5 💡 Otros Componentes Electrónicos](#215-otros-componentes-electrónicos)
+- [3. Modelos](#3-modelos)
+  - [3.1 PLACA PCB](#31-placa-pcb)
+  - [3.2 Sistema Ackerman](#32-sistema-ackerman)
+  - [3.3 Sistema Diferencial](#33-sistema-diferencial)
 ## 2.🛠️ Hardware
 
 En esta sección, describimos los materiales clave utilizados en la construcción de nuestro coche autónomo. Cada material fue cuidadosamente seleccionado para asegurar la máxima precisión y fiabilidad durante la competencia.
