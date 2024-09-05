@@ -4,8 +4,8 @@
 
 ![TEAM TUMI](T-PHOTOS/logo.png)
 
-+ Team's Name: ***TumiAQP***
-+ Car's Name: ***Lujobel***
+### Team's Name: ***TumiAQP***
+### Car's Name: ***Lujobel***
 
 # 1. Equipo WRO 2024 - Futuros Ingenieros
 
