@@ -102,7 +102,7 @@ En esta sección, puedes explorar una variedad de modelos 3D personalizados y pi
 > [!TIP]
 > Puedes encontrar los archivos de diseño para las piezas impresas en 3D en la carpeta [/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D](./V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D) del repositorio.
 
-#### 3. PLACA PCB  
+#### 3.1 PLACA PCB  
 ![PLACA PCB](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/PCB/PLACA_PCB.png)
 
 Diseñamos una placa PCB para consolidar todos los componentes electrónicos del robot autónomo en una estructura compacta y ordenada, minimizando errores de conexión y mejorando la eficiencia del sistema. Esta placa nos permite integrar de manera efectiva el ESP32, que procesa la información de los sensores y controla los actuadores. Los 7 sensores TOF VL53L0X miden distancias con precisión, y el sensor de color TCS3200 detecta señales visuales en la pista. Además, el giroscopio MPU6050 garantiza la estabilidad del robot, mientras que la ESP32 CAM captura imágenes del entorno. El servomotor MG995, controlado por el driver H-Bridge TB6612FNG.
@@ -110,9 +110,19 @@ Diseñamos una placa PCB para consolidar todos los componentes electrónicos del
 > [!NOTE]
 > Puedes ver el modelo 2D o 3D de la placa en la pagina web de Flux (herramienta que utilizamos para su diseño) https://www.flux.ai/brunolc/roversa?editor=pcb_2d
 
-### 1.10. Mecanismo de Ackerman
+### 3.2 Sistema Ackerman
 
-Implementamos el principio de dirección de Ackerman para asegurar que las ruedas del coche sigan la trayectoria correcta durante los giros, minimizando el desgaste de los neumáticos y mejorando el manejo general. Este mecanismo fue ajustado para trabajar sin problemas con nuestros algoritmos de control.
+La dirección de Ackerman asegura que las ruedas delanteras sigan trayectorias curvas diferentes al girar, con la rueda interna girando en un ángulo mayor que la externa. Este sistema optimiza la maniobrabilidad en curvas cerradas y evita el deslizamiento de las ruedas al forzar menos los neumáticos. En el contexto del WRO2024, donde el vehículo debe seguir trayectorias complejas y realizar giros de 90°, la geometría de Ackerman garantiza que el auto mantenga su precisión y estabilidad durante las maniobras, mejorando el control en circuitos con curvas pronunciadas.
+
+![MODEL 3D](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/Ackerman-System.jpg)
+
+
+### 3.3 Sistema Diferencial
+
+En el WRO2024 Future Engineers, el sistema diferencial es crucial para garantizar que las ruedas traseras giren a diferentes velocidades durante los giros. Cuando el vehículo toma una curva, la rueda externa recorre una mayor distancia que la interna, y el diferencial permite ajustar estas velocidades, mejorando la tracción y reduciendo el desgaste de los neumáticos. Esto evita deslizamientos y ayuda a mantener un movimiento suave y controlado, fundamental para los recorridos precisos que se requieren en la competencia.
+
+![MODEL 3D](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/Differential-System.jpg)
+
 
 ## 2. Software
 
