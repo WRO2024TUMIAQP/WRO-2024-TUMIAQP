@@ -107,15 +107,16 @@ In this section, we describe the key materials used in the construction of our a
 | **Componente**           | **Consumo de energía**                       | **Fuente**                                                      |
 |--------------------------|----------------------------------------------|-----------------------------------------------------------------|
 | **ESP32 WROOM-32**        | ~160 mA en operación                         | [Hoja de datos de ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf) |
-| **Sensor de color TCS3200**| ~2.5 mA en operación                        | [Hoja de datos de TCS3200](https://www.vishay.com/docs/84752/tcs3200.pdf) |
-| **2x Motores N20 800RPM** | ~40-100 mA por motor sin carga; máx. 200 mA por motor | Basado en motores N20 800RPM de 6V                |
+| **Sensor de color TCS3200**| ~2.5 mA en operación                        | [Hoja de datos de TCS3200]([https://www.vishay.com/docs/84752/tcs3200.pdf](https://www.alldatasheet.com/datasheet-pdf/pdf/560507/AMSCO/TCS3200.html) |
+| **2x Motores N20 800RPM** | ~50 mA por motor sin carga; máx. 200 mA por motor | [Hoja de datos de Motores n20 800RPM](https://naylampmechatronics.com/motores-dc/278-micromotor-dc-n20-12v-1000rpm.html)               |
 | **Driver H-Bridge TB6612FNG** | ~1.2 mA sin carga                       | [Hoja de datos de TB6612FNG](https://www.sparkfun.com/datasheets/Robotics/TB6612FNG.pdf) |
 | **7x TOF VL53L0X**        | ~19 mA por sensor (~133 mA en total)         | [Hoja de datos de VL53L0X](https://www.st.com/resource/en/datasheet/vl53l0x.pdf) |
 | **MG995 Servo**           | ~500 mA sin carga; hasta 1.5 A con carga máxima | [Hoja de datos del MG995](https://www.electronicoscaldas.com/datasheet/MG995_Tower-Pro.pdf) |
-| **ESP32-CAM**             | ~160 mA en operación                         | Basado en mediciones de usuarios                                 |
+| **ESP32-CAM**             | ~160 mA en operación                         | [Hoja de datos del ESP32-CAM](https://loboris.eu/ESP32/ESP32-CAM%20Product%20Specification.pdf)                                 |
 | **Giroscopio MPU6050**    | ~3.9 mA en operación                         | [Hoja de datos de MPU6050](https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/) |
 | **Total estimado**        | **~1.36 A (sin carga máxima en servo y motores)** |                                                                 |
 | **Total máximo estimado** | **Hasta ~2.4 A** (con servo y motores a plena carga) |                                                                 |
+
 
 # 3. Models
 
