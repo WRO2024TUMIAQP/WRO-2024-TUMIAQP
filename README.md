@@ -166,6 +166,103 @@ The TB6612FNG H-Bridge Driver will control the N20 Motors of the differential sy
 
 # 4. TOF System
 
+### 4.0.1 CODE TOF System
+
+To operate the 7 Time-of-Flight (ToF) sensors in the project, an I2C connection is used. This connection allows for efficient management of the sensors by assigning each one a unique address and simplifying the wiring. The provided code configures and reads measurements from these sensors, enabling their integration with steering systems such as Ackerman and differential. This ensures precise and effective object detection and distance measurement in the system.
+
+```cpp
+#include <Wire.h>
+#include <Adafruit_VL53L0X.h>
+
+// Define I2C addresses for the 7 sensors
+#define SENSOR_ADDRESSES {0x30, 0x31, 0x32, 0x33, 0x34, 0x35, 0x36}
+
+// Define XSHUT pins for each sensor
+#define XSHUT_PINS {15, 2, 4, 16, 17, 5, 18}
+
+// Create objects for the VL53L0X sensors
+Adafruit_VL53L0X lox[7];
+
+// XSHUT pins array
+int xshut_pins[] = XSHUT_PINS;
+int sensor_addresses[] = SENSOR_ADDRESSES;
+
+// This array stores the distance measurements
+VL53L0X_RangingMeasurementData_t measurements[7];
+
+// Initialize the sensors
+void setID() {
+  // Put all sensors in reset mode (XSHUT = LOW)
+  for (int i = 0; i < 7; i++) {
+    pinMode(xshut_pins[i], OUTPUT);
+    digitalWrite(xshut_pins[i], LOW);
+  }
+  delay(10); // Wait for sensors to enter reset
+
+  // Bring sensors out of reset one by one and assign unique I2C addresses
+  for (int i = 0; i < 7; i++) {
+    digitalWrite(xshut_pins[i], HIGH);  // Enable the current sensor
+    delay(10);  // Small delay to stabilize
+
+    // Initialize the sensor with its corresponding I2C address
+    if (!lox[i].begin(sensor_addresses[i])) {
+      // If initialization fails, print an error message
+      Serial.print("Error initializing sensor ");
+      Serial.println(i);
+    } else {
+      // Otherwise, confirm the sensor has started
+      Serial.print("Sensor ");
+      Serial.println(i);
+    }
+
+    // Keep the current sensor on while initializing the others
+  }
+}
+
+// Function to read distance data from all sensors
+void read_sensors() {
+  for (int i = 0; i < 7; i++) {
+    // Perform a ranging test and store the result in the measurements array
+    lox[i].rangingTest(&measurements[i], false); 
+
+    // Print the sensor index
+    Serial.print("Sensor ");
+    Serial.print(i);
+    Serial.print(": ");
+    
+    // Check if the measurement was successful (RangeStatus != 4 indicates no error)
+    if (measurements[i].RangeStatus != 4) {
+      // If successful, print the distance in millimeters
+      Serial.print(measurements[i].RangeMilliMeter);
+      Serial.print(" mm");
+    } else {
+      // If an error occurred, print an error message
+      Serial.print("Measurement error");
+    }
+    Serial.println();  // Move to the next line for the next sensor's output
+  }
+}
+
+// Setup function that runs once when the program starts
+void setup() {
+  Serial.begin(115200);  // Start the serial communication at 115200 baud rate
+
+  // Wait until the serial port is open
+  while (!Serial) { delay(1); }
+
+  // Print a message and start configuring sensors
+  Serial.println("Configuring sensors...");
+  setID();  // Initialize all sensors with unique I2C addresses
+  Serial.println("Sensors initialized.");
+}
+
+// Main loop that continuously reads sensor data
+void loop() {
+  read_sensors();  // Read and print the measurements from all sensors
+  delay(200);  // Wait 200ms (0.2 seconds) before the next reading
+}
+```
+
 ![First phase of the system ](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-System/First-Phase.png)
 
 ## 4.1. First Phase
