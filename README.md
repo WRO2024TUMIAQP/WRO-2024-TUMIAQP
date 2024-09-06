@@ -53,7 +53,7 @@ We work as a team to achieve great things, with the goal of succeeding in the **
   - [4.3 Third Phase](#43-third-phase)
 - [5. Sensors](#5-Sensors)
   - [5.1 Sensor de color TCS3200](#41-Sensor-de-color-TCS3200)
-  - [5.2 ESP32 CAM](#41-ESP3-CAM)
+  - [5.2 ESP32 CAM](#41-ESP32-CAM)
  
   
 # 2. Hardware
