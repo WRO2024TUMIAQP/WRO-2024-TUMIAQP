@@ -142,7 +142,11 @@ The front TOF detects obstacles and guides the trajectory at a distance of 30 cm
 
 ![Second phase of the system ](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-System/Second-Phase.png)
 
-## 4.2. Second Phase
-The front and lateral TOF sensors anticipate the corners by detecting changes in distance and angle, generating a signal to activate the
+## 4.2. Second Phase  
+The front and lateral TOF sensors anticipate corners by detecting changes in distance and angle, generating an activation signal for the precise turning of the vehicle at the right moment, based on the readings from the front lateral TOF sensors at 30°.
 
+![Third phase of the system](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-System/Third-phase.png)
+
+## 4.3. Third Phase  
+The Ackerman system adjusts the wheel angles to execute smooth and precise turns, using data from the rest of the TOF sensors to ensure the vehicle follows the correct path during curves, maintaining a 50 cm distance from the wall.
 
