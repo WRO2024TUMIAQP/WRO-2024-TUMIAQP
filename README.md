@@ -179,7 +179,7 @@ En la competencia de **WRO Future Engineers**, emplearemos el **sensor de color 
 
 El **TCS3200** analizará estos colores, permitiendo que el vehículo ajuste su dirección de forma precisa y en tiempo real. Este sistema de detección nos proporcionará la capacidad de definir qué sensores TOF frontales se activarán para realizar giros estratégicos según la dirección indicada por los colores de la pista. De esta manera, podremos optimizar los **algoritmos de navegación** y asegurar maniobras eficientes en cada giro.
 
-# 6.0 ESP32 CAM
+## 5.1 ESP32 CAM
 
 ![First phase of the CAM](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/Esp32-CAM-System/Green-obstacle.png)
 
