@@ -115,7 +115,7 @@ In this section, we describe the key materials used in the construction of our a
 | **ESP32-CAM**             | ~160 mA en operación                         | [Hoja de datos del ESP32-CAM](https://loboris.eu/ESP32/ESP32-CAM%20Product%20Specification.pdf)                                 |
 | **Giroscopio MPU6050**    | ~3.9 mA en operación                         | [Hoja de datos de MPU6050](https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/) |
 | **Total estimado**        | **~1.36 A (sin carga máxima en servo y motores)** |                                                                 |
-| **Total máximo estimado** | **Hasta ~2.4 A** (con servo y motores a plena carga) |                                                                 |
+| **Total máximo estimado** | **Hasta ~1.9 A** (con servo y motores a plena carga) |                                                                 |
 
 
 # 3. Models
