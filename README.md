@@ -114,7 +114,6 @@ In this section, we describe the key materials used in the construction of our a
 | **MG995 Servo**           | ~500 mA sin carga; hasta 1.5 A con carga máxima | [Hoja de datos del MG995](https://www.electronicoscaldas.com/datasheet/MG995_Tower-Pro.pdf) |
 | **ESP32-CAM**             | ~160 mA en operación                         | Basado en mediciones de usuarios                                 |
 | **Giroscopio MPU6050**    | ~3.9 mA en operación                         | [Hoja de datos de MPU6050](https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/) |
-
 | **Total estimado**        | **~1.36 A (sin carga máxima en servo y motores)** |                                                                 |
 | **Total máximo estimado** | **Hasta ~2.4 A** (con servo y motores a plena carga) |                                                                 |
 
