@@ -51,8 +51,11 @@ We work as a team to achieve great things, with the goal of succeeding in the **
   - [4.1 First Phase](#41-first-phase)
   - [4.2 Second Phase](#42-second-phase)
   - [4.3 Third Phase](#43-third-phase)
-- [5. ESP32 CAM](#5-esp32-cam)
-
+- [5. Sensors](#5-Sensors)
+  - [5.1 Sensor de color TCS3200](#41-Sensor-de-color-TCS3200)
+  - [5.2 ESP32 CAM](#41-ESP3-CAM)
+ 
+  
 # 2. Hardware
 
 In this section, we describe the key materials used in the construction of our autonomous vehicle. Each material was carefully selected to ensure maximum precision and reliability during the competition.
