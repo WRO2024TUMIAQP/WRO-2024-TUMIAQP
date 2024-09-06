@@ -69,7 +69,7 @@ In this section, we describe the key materials used in the construction of our a
 
 ### 2.1.1. Power Source
 
-- **11.1V 1500mAh Battery:**  
+- **11.1V 1800mAh Battery:**  
   Powers all the electronic components, ensuring continuous operation during tests and challenges.
 
 - **LM2596 DC-DC Voltage Converter:**  
