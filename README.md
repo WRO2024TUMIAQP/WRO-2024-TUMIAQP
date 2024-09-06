@@ -31,7 +31,7 @@ We work as a team to achieve great things, with the goal of succeeding in the **
 
 ---
 > [!NOTE]
-> This repository contains all the information related to our project for the WRO 2024, including code, designs, and technical documentation.
+> "This repository contains all the information related to our project for the WRO 2024, including code, designs, and technical documentation. You can view our logbook at https://heyzine.com/flip-book/b6dbb9050b.html."
 
 ## Table of Contents
 
