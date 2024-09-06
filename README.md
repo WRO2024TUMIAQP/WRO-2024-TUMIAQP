@@ -196,6 +196,108 @@ The **TCS3200** will analyze these colors, allowing the vehicle to adjust its di
 
 The integration of the **ESP32 CAM** into the robot's navigation system provides an additional layer of analysis, increasing precision and responsiveness to obstacles. By using computer vision, the robot can not only detect the orientation line colors but also identify the colors of obstacles in advance and plan its maneuver before colliding.
 
+### 5.2.1 CODE ESP32 CAM
+
+This code is designed to detect red and green color blocks using the ESP32-CAM camera. The detection of these colors is based on converting the captured images from the RGB format (Red, Green, Blue) to HSV (Hue, Saturation, Value), which is a more suitable color system for color detection. The hue can be used to more easily distinguish between red and green colors.
+
+```cpp
+#include "esp_camera.h"
+#include "Arduino.h"
+
+// Definir los pines de la cámara ESP32-CAM
+#define PWDN_GPIO_NUM     32
+#define RESET_GPIO_NUM    -1
+#define XCLK_GPIO_NUM      0
+#define SIOD_GPIO_NUM     26
+#define SIOC_GPIO_NUM     27
+#define Y9_GPIO_NUM       35
+#define Y8_GPIO_NUM       34
+#define Y7_GPIO_NUM       39
+#define Y6_GPIO_NUM       36
+#define Y5_GPIO_NUM       21
+#define Y4_GPIO_NUM       19
+#define Y3_GPIO_NUM       18
+#define Y2_GPIO_NUM        5
+#define VSYNC_GPIO_NUM    25
+#define HREF_GPIO_NUM     23
+#define PCLK_GPIO_NUM     22
+
+// Definir las dimensiones de la imagen (ancho y alto en píxeles)
+#define IMAGE_WIDTH  160
+#define IMAGE_HEIGHT 120
+
+// Matriz para almacenar los valores RGB de cada píxel de la imagen
+uint8_t rgbMatrix[IMAGE_HEIGHT][IMAGE_WIDTH][3];
+
+// Matriz para almacenar los valores HSV de cada píxel de la imagen
+float hsvMatrix[IMAGE_HEIGHT][IMAGE_WIDTH][3];
+
+// Función que encuentra el valor máximo de tres números (utilizado en la conversión RGB a HSV)
+float findMax(float a, float b, float c) {
+  float max = a;
+  if (b > max) max = b;
+  if (c > max) max = c;
+  return max;
+}
+
+// Función que encuentra el valor mínimo de tres números (utilizado en la conversión RGB a HSV)
+float findMin(float a, float b, float c) {
+  float min = a;
+  if (b < min) min = b;
+  if (c < min) min = c;
+  return min;
+}
+
+// Función para convertir los valores de un píxel de formato RGB a HSV
+void rgbToHsv(float r, float g, float b, float& h, float& s, float& v) {
+    float max = findMax(r, g, b);  // Encuentra el valor máximo entre r, g y b
+    float min = findMin(r, g, b);  // Encuentra el valor mínimo entre r, g y b
+    v = max;  // El valor (v) en HSV es el valor máximo de RGB
+
+    float delta = max - min;  // Diferencia entre máximo y mínimo (para calcular Saturación)
+    if (max != 0) {
+        s = delta / max;  // Si no es negro, la saturación se calcula
+    } else {
+        s = 0;  // Si es negro (max=0), la saturación es cero
+        h = -1;  // No tiene tono (Hue)
+        return;
+    }
+
+    // Calcular el tono (hue) según cuál componente (r, g, b) es el máximo
+    if (r == max) {
+        h = (g - b) / delta;  // Hue entre rojo y los demás colores
+    } else if (g == max) {
+        h = 2 + (b - r) / delta;  // Hue entre verde y otros colores
+    } else {
+        h = 4 + (r - g) / delta;  // Hue entre azul y los demás
+    }
+
+    h *= 60;  // Convertir a grados (0-360)
+    if (h < 0) h += 360;  // Asegurarse que el valor esté entre 0 y 360
+}
+
+// Función para configurar la cámara ESP32-CAM
+bool setupCamera() {
+  camera_config_t config;  // Estructura para la configuración de la cámara
+  config.ledc_channel = LEDC_CHANNEL_0;
+  config.ledc_timer = LEDC_TIMER_0;
+  config.pin_d0 = Y2_GPIO_NUM;
+  config.pin_d1 = Y3_GPIO_NUM;
+  config.pin_d2 = Y4_GPIO_NUM;
+  config.pin_d3 = Y5_GPIO_NUM;
+  config.pin_d4 = Y6_GPIO_NUM;
+  config.pin_d5 = Y7_GPIO_NUM;
+  config.pin_d6 = Y8_GPIO_NUM;
+  config.pin_d7 = Y9_GPIO_NUM;
+  config.pin_xclk = XCLK_GPIO_NUM;
+  config.pin_pclk = PCLK_GPIO_NUM;
+  config.pin_vsync = VSYNC_GPIO_NUM;
+  config.pin_href = HREF_GPIO_NUM;
+  config.pin_sscb_sda = SIOD_GPIO_NUM;
+  config.pin_sscb_scl = SIOC_GPIO_NUM;
+  config.pin_pwdn = PWDN_GPIO_NUM;
+  config.pin
+
 
 
 
