@@ -49,16 +49,16 @@ We work as a team to achieve great things, with the goal of succeeding in the **
   - [3.1 PCB Board](#31-pcb-board)
   - [3.2 Ackerman Steering System](#32-ackerman-steering-system)
   - [3.3 Differential System](#33-differential-system)
-    - [3.3.1 Motors](#331-Motors)
+    - [3.3.1 Motors](#331-motors)
 - [4.0 TOF System](#4-tof-system)
-    - [4.0.1 CODE ESP32 CAM](521-CODE-ESP32-CAM)
+  - [4.0.1 CODE ESP32 CAM](#401-code-esp32-cam)
   - [4.1 First Phase](#41-first-phase)
   - [4.2 Second Phase](#42-second-phase)
   - [4.3 Third Phase](#43-third-phase)
 - [5.0 Sensores](#50-sensores)
-  - [5.1 TSC3200 color sensor](#51-TSC3200-color-sensor)
+  - [5.1 TSC3200 color sensor](#51-tsc3200-color-sensor)
   - [5.2 ESP32 CAM](#52-esp32-cam)
-  - [5.2.1 CODE ESP32 CAM](521-CODE-ESP32-CAM)
+    - [5.2.1 CODE ESP32 CAM](#521-code-esp32-cam)
   
 # 2. Hardware
 
