@@ -57,6 +57,7 @@ We work as a team to achieve great things, with the goal of succeeding in the **
 - [5.0 Sensores](#50-sensores)
   - [5.1 TSC3200 color sensor](#51-TSC3200-color-sensor)
   - [5.2 ESP32 CAM](#52-esp32-cam)
+  - [5.2.1 CODE ESP32 CAM](521-CODE-ESP32-CAM)
   
 # 2. Hardware
 
