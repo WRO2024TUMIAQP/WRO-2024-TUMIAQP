@@ -108,7 +108,7 @@ In this section, we describe the key materials used in the construction of our a
 |--------------------------|----------------------------------------------|-----------------------------------------------------------------|
 | **ESP32 WROOM-32**        | ~160 mA en operación                         | [Hoja de datos de ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf) |
 | **Sensor de color TCS3200**| ~2.5 mA en operación                        | [Hoja de datos de TCS3200](https://www.vishay.com/docs/84752/tcs3200.pdf) |
-| **2x Motores N20 800RPM** | ~40-100 mA por motor sin carga; máx. 200 mA por motor | Basado en motores N20 800RPM de 6V (como Pololu)                |
+| **2x Motores N20 800RPM** | ~40-100 mA por motor sin carga; máx. 200 mA por motor | Basado en motores N20 800RPM de 6V                |
 | **Driver H-Bridge TB6612FNG** | ~1.2 mA sin carga                       | [Hoja de datos de TB6612FNG](https://www.sparkfun.com/datasheets/Robotics/TB6612FNG.pdf) |
 | **7x TOF VL53L0X**        | ~19 mA por sensor (~133 mA en total)         | [Hoja de datos de VL53L0X](https://www.st.com/resource/en/datasheet/vl53l0x.pdf) |
 | **MG995 Servo**           | ~500 mA sin carga; hasta 1.5 A con carga máxima | [Hoja de datos del MG995](https://www.electronicoscaldas.com/datasheet/MG995_Tower-Pro.pdf) |
