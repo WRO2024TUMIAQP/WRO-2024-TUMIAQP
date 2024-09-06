@@ -166,7 +166,7 @@ The front and lateral TOF sensors anticipate corners by detecting changes in dis
 ## 4.3. Third Phase  
 The Ackerman system adjusts the wheel angles to execute smooth and precise turns, using data from the rest of the TOF sensors to ensure the vehicle follows the correct path during curves, maintaining a 50 cm distance from the wall.
 
-### 5.0 Sensor de Color
+## 5.0 Sensor de Color
 
 En la competencia de **WRO Future Engineers**, emplearemos el **sensor de color TCS3200** para identificar la orientación del vehículo en base a las líneas de color ubicadas en las esquinas de la pista:
 
