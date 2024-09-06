@@ -181,6 +181,9 @@ El **TCS3200** analizará estos colores, permitiendo que el vehículo ajuste su 
 
 # 6.0 ESP32 CAM
 
+![First phase of the CAM](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/Esp32-CAM-System/Green-obstacle.png)
+
+La integración deL ESP32 CAM en el sistema de navegación del robot permite una capa adicional de análisis, incrementando la precisión y capacidad de respuesta ante los obstáculos. Al utilizar visión artificial, el robot no solo puede detectar los colores de las líneas de orientación, sino también identificar de manera anticipada los colores de los obstáculos y planificar la maniobra antes de chocar.
 
 
 
