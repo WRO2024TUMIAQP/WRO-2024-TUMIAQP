@@ -55,7 +55,7 @@ We work as a team to achieve great things, with the goal of succeeding in the **
   - [4.2 Second Phase](#42-second-phase)
   - [4.3 Third Phase](#43-third-phase)
 - [5.0 Sensores](#50-sensores)
-  - [5.1 Sensor de color TCS3200](#51-sensor-de-color-tcs3200)
+  - [5.1 TSC3200 color sensor](#51-TSC3200-color-sensor)
   - [5.2 ESP32 CAM](#52-esp32-cam)
   
 # 2. Hardware
@@ -109,19 +109,18 @@ In this section, we describe the key materials used in the construction of our a
 
 ### Power management
 
-| **Componente**           | **Consumo de energía**                       | **Fuente**                                                      |
+| **Component**            | **Power Consumption**                        | **Source**                                                      |
 |--------------------------|----------------------------------------------|-----------------------------------------------------------------|
-| **ESP32 WROOM-32**        | ~160 mA en operación                         | [Hoja de datos de ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf) |
-| **Sensor de color TCS3200**| ~2.5 mA en operación                        | [Hoja de datos de TCS3200](https://www.alldatasheet.com/datasheet-pdf/pdf/560507/AMSCO/TCS3200.html) |
-| **2x Motores N20 800RPM** | ~50 mA por motor sin carga; máx. 200 mA por motor | [Hoja de datos de Motores n20 800RPM](https://naylampmechatronics.com/motores-dc/278-micromotor-dc-n20-12v-1000rpm.html)               |
-| **Driver H-Bridge TB6612FNG** | ~1.2 mA sin carga                       | [Hoja de datos de TB6612FNG](https://www.sparkfun.com/datasheets/Robotics/TB6612FNG.pdf) |
-| **7x TOF VL53L0X**        | ~19 mA por sensor (~133 mA en total)         | [Hoja de datos de VL53L0X](https://www.st.com/resource/en/datasheet/vl53l0x.pdf) |
-| **MG995 Servo**           | ~500 mA sin carga; hasta 1.5 A con carga máxima | [Hoja de datos del MG995](https://www.electronicoscaldas.com/datasheet/MG995_Tower-Pro.pdf) |
-| **ESP32-CAM**             | ~160 mA en operación                         | [Hoja de datos del ESP32-CAM](https://loboris.eu/ESP32/ESP32-CAM%20Product%20Specification.pdf)                                 |
-| **Giroscopio MPU6050**    | ~3.9 mA en operación                         | [Hoja de datos de MPU6050](https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/) |
-| **Total estimado**        | **~1.36 A (sin carga máxima en servo y motores)** |                                                                 |
-| **Total máximo estimado** | **Hasta ~1.9 A** (con servo y motores a plena carga) |                                                                 |
-
+| **ESP32 WROOM-32**        | ~160 mA during operation                     | [ESP32 Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf) |
+| **TCS3200 Color Sensor**  | ~2.5 mA during operation                     | [TCS3200 Datasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/560507/AMSCO/TCS3200.html) |
+| **2x N20 800RPM Motors**  | ~50 mA per motor no load; max. 200 mA per motor | [N20 Motor 800RPM Datasheet](https://naylampmechatronics.com/motores-dc/278-micromotor-dc-n20-12v-1000rpm.html) |
+| **Driver H-Bridge TB6612FNG** | ~1.2 mA no load                        | [TB6612FNG Datasheet](https://www.sparkfun.com/datasheets/Robotics/TB6612FNG.pdf) |
+| **7x TOF VL53L0X Sensors**| ~19 mA per sensor (~133 mA total)            | [VL53L0X Datasheet](https://www.st.com/resource/en/datasheet/vl53l0x.pdf) |
+| **MG995 Servo**           | ~500 mA no load; up to 1.5 A at full load    | [MG995 Servo Datasheet](https://www.electronicoscaldas.com/datasheet/MG995_Tower-Pro.pdf) |
+| **ESP32-CAM**             | ~160 mA during operation                     | [ESP32-CAM Datasheet](https://loboris.eu/ESP32/ESP32-CAM%20Product%20Specification.pdf) |
+| **MPU6050 Gyroscope**     | ~3.9 mA during operation                     | [MPU6050 Datasheet](https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/) |
+| **Estimated Total**       | **~1.36 A (without full load on servo and motors)** |                                                                 |
+| **Maximum Estimated Total** | **Up to ~1.9 A** (with servo and motors at full load) |                                                                 |
 
 # 3. Models
 
@@ -181,21 +180,22 @@ The front and lateral TOF sensors anticipate corners by detecting changes in dis
 ## 4.3. Third Phase  
 The Ackerman system adjusts the wheel angles to execute smooth and precise turns, using data from the rest of the TOF sensors to ensure the vehicle follows the correct path during curves, maintaining a 50 cm distance from the wall.
 
-# 5.0 Sensores
+### 5.0 Sensors
 
-## 5.1 Sensor de color TCS3200
-En la competencia de **WRO Future Engineers**, emplearemos el **sensor de color TCS3200** para identificar la orientación del vehículo en base a las líneas de color ubicadas en las esquinas de la pista:
+## 5.1 TCS3200 Color Sensor
+In the **WRO Future Engineers** competition, we will use the **TCS3200 color sensor** to identify the vehicle's orientation based on the color lines located at the corners of the track:
 
-- **Naranja**: Señala que el vehículo debe avanzar en **sentido horario**.
-- **Azul**: Indica que el vehículo debe avanzar en **sentido antihorario**.
+- **Orange**: Indicates the vehicle should move in a **clockwise direction**.
+- **Blue**: Indicates the vehicle should move in a **counterclockwise direction**.
 
-El **TCS3200** analizará estos colores, permitiendo que el vehículo ajuste su dirección de forma precisa y en tiempo real. Este sistema de detección nos proporcionará la capacidad de definir qué sensores TOF frontales se activarán para realizar giros estratégicos según la dirección indicada por los colores de la pista. De esta manera, podremos optimizar los **algoritmos de navegación** y asegurar maniobras eficientes en cada giro.
+The **TCS3200** will analyze these colors, allowing the vehicle to adjust its direction accurately and in real time. This detection system will enable us to determine which front TOF sensors will activate to perform strategic turns based on the direction indicated by the track colors. In this way, we can optimize the **navigation algorithms** and ensure efficient maneuvers at each turn.
 
 ## 5.2 ESP32 CAM
 
 ![First phase of the CAM](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/Esp32-CAM-System/Green-obstacle.png)
 
-La integración deL ESP32 CAM en el sistema de navegación del robot permite una capa adicional de análisis, incrementando la precisión y capacidad de respuesta ante los obstáculos. Al utilizar visión artificial, el robot no solo puede detectar los colores de las líneas de orientación, sino también identificar de manera anticipada los colores de los obstáculos y planificar la maniobra antes de chocar.
+The integration of the **ESP32 CAM** into the robot's navigation system provides an additional layer of analysis, increasing precision and responsiveness to obstacles. By using computer vision, the robot can not only detect the orientation line colors but also identify the colors of obstacles in advance and plan its maneuver before colliding.
+
 
 
 
