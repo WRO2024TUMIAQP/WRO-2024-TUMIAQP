@@ -102,6 +102,22 @@ In this section, we describe the key materials used in the construction of our a
 - **1 x Two-Position Slide Switch:**  
   Used to safely turn the system on and off.
 
+### Power management
+
+| **Componente**           | **Consumo de energía**                       | **Fuente**                                                      |
+|--------------------------|----------------------------------------------|-----------------------------------------------------------------|
+| **ESP32 WROOM-32**        | ~160 mA en operación                         | [Hoja de datos de ESP32](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf) |
+| **Sensor de color TCS3200**| ~2.5 mA en operación                        | [Hoja de datos de TCS3200](https://www.vishay.com/docs/84752/tcs3200.pdf) |
+| **2x Motores N20 800RPM** | ~40-100 mA por motor sin carga; máx. 200 mA por motor | Basado en motores N20 800RPM de 6V (como Pololu)                |
+| **Driver H-Bridge TB6612FNG** | ~1.2 mA sin carga                       | [Hoja de datos de TB6612FNG](https://www.sparkfun.com/datasheets/Robotics/TB6612FNG.pdf) |
+| **7x TOF VL53L0X**        | ~19 mA por sensor (~133 mA en total)         | [Hoja de datos de VL53L0X](https://www.st.com/resource/en/datasheet/vl53l0x.pdf) |
+| **MG995 Servo**           | ~500 mA sin carga; hasta 1.5 A con carga máxima | [Hoja de datos del MG995](https://www.electronicoscaldas.com/datasheet/MG995_Tower-Pro.pdf) |
+| **ESP32-CAM**             | ~160 mA en operación                         | Basado en mediciones de usuarios                                 |
+| **Giroscopio MPU6050**    | ~3.9 mA en operación                         | [Hoja de datos de MPU6050](https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/) |
+
+| **Total estimado**        | **~1.36 A (sin carga máxima en servo y motores)** |                                                                 |
+| **Total máximo estimado** | **Hasta ~2.4 A** (con servo y motores a plena carga) |                                                                 |
+
 # 3. Models
 
 We developed 3D models of the car to simulate its behavior and performance under various conditions. These models helped refine the design before actual production, saving both time and resources.
@@ -123,7 +139,7 @@ We designed a PCB to consolidate all the electronic components of the autonomous
 
 ## 3.2 Ackerman Steering System
 
-The Ackerman steering system ensures that the front wheels follow different curved paths when turning, with the inner wheel turning at a sharper angle than the outer wheel. This system optimizes maneuverability in tight turns and prevents wheel slippage by reducing tire strain. In the context of WRO 2024, where the vehicle must follow complex paths and make 90° turns, the Ackerman geometry ensures that the car maintains its precision and stability during maneuvers, enhancing control on circuits with sharp curves.
+The Ackerman steering system ensures that the front wheels follow different curved paths, optimizing maneuverability and preventing slippage. In the WRO 2024, where the vehicle faces 90° turns, this geometry guarantees precision and stability. The MG995 servo motor, with a torque of 10 kg·cm and an angular precision of 0.2°, controls the Ackerman system by adjusting the wheel angles. Its high torque and precision enable extremely accurate turns, essential for fast and efficient maneuvers in the 90-degree turns we require.
 
 ![MODEL 3D](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/Ackerman-System.jpg)
 
