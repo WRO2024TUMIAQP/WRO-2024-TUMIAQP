@@ -51,7 +51,6 @@ We work as a team to achieve great things, with the goal of succeeding in the **
   - [3.3 Differential System](#33-differential-system)
     - [3.3.1 Motors](#331-motors)
 - [4.0 TOF System](#4-tof-system)
-  - [4.0.1 CODE ESP32 CAM](#401-code-esp32-cam)
   - [4.1 First Phase](#41-first-phase)
   - [4.2 Second Phase](#42-second-phase)
   - [4.3 Third Phase](#43-third-phase)
@@ -166,8 +165,6 @@ The TB6612FNG H-Bridge Driver will control the N20 Motors of the differential sy
 ![H-bridge](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COMPONENTS/H-bridge-connection.jpg)
 
 # 4. TOF System
-
-### 4.0.1 CODE TOF System
 
 To operate the 7 Time-of-Flight (ToF) sensors in the project, an I2C connection is used. This connection allows for efficient management of the sensors by assigning each one a unique address and simplifying the wiring. The provided code configures and reads measurements from these sensors, enabling their integration with steering systems such as Ackerman and differential. This ensures precise and effective object detection and distance measurement in the system.
 
