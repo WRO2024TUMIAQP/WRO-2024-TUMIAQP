@@ -159,7 +159,7 @@ In the WRO 2024 Future Engineers challenge, the differential system is crucial f
 
 ### 3.3.1 Motors
 
-El Driver H-Bridge TB6612FNG controlará los Motores NP20 del sistema diferencial, permitiendo gestionar las señales PWM para ajustar la velocidad y dirección de cada rueda de forma precisa. Esto es esencial para lograr giros eficientes y maniobras dinámicas. El TB6612FNG interactúa con los sensores TCS3200 y ESP32 CAM, ajustando el movimiento del vehículo según los colores de la pista o la presencia de obstáculos. Permite invertir la rotación de los motores para cambios rápidos de dirección, mientras su protección contra sobrecalentamiento y sobrecorriente asegura un funcionamiento seguro bajo condiciones exigentes.
+The TB6612FNG H-Bridge Driver will control the N20 Motors of the differential system, allowing the management of PWM signals to precisely adjust the speed and direction of each wheel. This is essential for achieving efficient turns and dynamic maneuvers. The TB6612FNG interacts with the TCS3200 and ESP32 CAM sensors, adjusting the vehicle's movement according to the track colors or the presence of obstacles. It allows for reversing the motor rotation for quick direction changes, while its overcurrent and overheating protection ensures safe operation under demanding conditions.
 
 ![H-bridge](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/COMPONENTS/H-bridge-connection.jpg)
 
