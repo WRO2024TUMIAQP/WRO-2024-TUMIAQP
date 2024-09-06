@@ -45,10 +45,11 @@ We work as a team to achieve great things, with the goal of succeeding in the **
     - [2.1.3 🔌 Connectors and Cables](#213-connectors-and-cables)
     - [2.1.4 🛠️ Tools and Adhesives](#214-tools-and-adhesives)
     - [2.1.5 💡 Other Electronic Components](#215-other-electronic-components)
-- [3. Models](#3-models)
+- [4. Models](#3-models)
   - [3.1 PCB Board](#31-pcb-board)
   - [3.2 Ackerman Steering System](#32-ackerman-steering-system)
   - [3.3 Differential System](#33-differential-system)
+    - [3.3.1 Motors](#331-Motors)
 - [4. TOF System](#4-tof-system)
   - [4.1 First Phase](#41-first-phase)
   - [4.2 Second Phase](#42-second-phase)
@@ -156,6 +157,10 @@ The Ackerman steering system ensures that the front wheels follow different curv
 In the WRO 2024 Future Engineers challenge, the differential system is crucial for ensuring that the rear wheels rotate at different speeds during turns. When the vehicle takes a curve, the outer wheel travels a greater distance than the inner one, and the differential allows these speed adjustments, improving traction and reducing tire wear. This prevents skidding and helps maintain smooth and controlled movement, essential for the precise routes required in the competition.
 
 ![MODEL 3D](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/Differential-System.jpg)
+
+### 3.3.1 Motors
+
+El Driver H-Bridge TB6612FNG controlará los Motores NP20 del sistema diferencial, permitiendo gestionar las señales PWM para ajustar la velocidad y dirección de cada rueda de forma precisa. Esto es esencial para lograr giros eficientes y maniobras dinámicas. El TB6612FNG interactúa con los sensores TCS3200 y ESP32 CAM, ajustando el movimiento del vehículo según los colores de la pista o la presencia de obstáculos. Permite invertir la rotación de los motores para cambios rápidos de dirección, mientras su protección contra sobrecalentamiento y sobrecorriente asegura un funcionamiento seguro bajo condiciones exigentes.
 
 # 4. TOF System
 
