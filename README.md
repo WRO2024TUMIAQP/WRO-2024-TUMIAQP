@@ -126,13 +126,13 @@ In this section, you can explore a variety of custom 3D models and 3D-printed pa
 
 ![During printing](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/MODELS-3D/IMPRESION-3D.png)
 
-> [!TIP]
-> You can find the design files for the 3D-printed parts in the folder [/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/MODELS-3D) of the repository.
-
 ## 3.1 PCB Board  
 ![PCB BOARD](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/PCB/BOARD_PCB_2D.png)
 
 We designed a PCB to consolidate all the electronic components of the autonomous robot into a compact and organized structure, minimizing connection errors and improving system efficiency. This board allows us to effectively integrate the ESP32, which processes sensor data and controls the actuators. The 7 TOF VL53L0X sensors measure distances precisely, and the TCS3200 color sensor detects visual signals on the track. Additionally, the MPU6050 gyroscope ensures the robot's stability, while the ESP32 CAM captures images of the environment. The MG995 servo motor, controlled by the H-Bridge TB6612FNG driver, manages steering.
+
+> [!TIP]
+> You can find the design files for the 3D-printed parts in the folder [/V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/MODELS-3D](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/ROBOT-3D/MODELS-3D) of the repository.
 
 > [!NOTE]
 > You can view the 2D or 3D model of the PCB on Flux (the tool we used for design) at https://www.flux.ai/brunolc/roversa?editor=pcb_2d
@@ -171,7 +171,7 @@ The front and lateral TOF sensors anticipate corners by detecting changes in dis
 ## 4.3. Third Phase  
 The Ackerman system adjusts the wheel angles to execute smooth and precise turns, using data from the rest of the TOF sensors to ensure the vehicle follows the correct path during curves, maintaining a 50 cm distance from the wall.
 
-## 5.0 Sensor de Color
+# 5.0 Sensor de Color
 
 En la competencia de **WRO Future Engineers**, emplearemos el **sensor de color TCS3200** para identificar la orientación del vehículo en base a las líneas de color ubicadas en las esquinas de la pista:
 
