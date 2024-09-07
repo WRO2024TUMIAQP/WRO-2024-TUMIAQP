@@ -176,7 +176,7 @@ To operate the 7 Time-of-Flight (ToF) sensors in the project, an I2C connection 
 #define SENSOR_ADDRESSES {0x30, 0x31, 0x32, 0x33, 0x34, 0x35, 0x36}
 
 // Define XSHUT pins for each sensor
-#define XSHUT_PINS {15, 2, 4, 16, 17, 5, 18}
+#define XSHUT_PINS {, 2, 4, 16, 17, 5,}
 
 // Create objects for the VL53L0X sensors
 Adafruit_VL53L0X lox[7];
