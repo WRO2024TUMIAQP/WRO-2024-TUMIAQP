@@ -1,0 +1,64 @@
+Proceso Principal
+    //InicializarSensores() //call the function
+    Mientras Verdadero
+        //LeerSensores() //call the function
+        Esperar 2 segundos;
+    FinMientras
+FinProceso
+
+Funcion InicializarSensores()
+	Definir DIRECCIONES1 Como Entero;
+	Definir PINES_XSHUT1 Como Entero;
+	Definir DIRECCIONES2 Como Entero;
+	Definir PINES_XSHUT2 Como Entero;
+	Definir DIRECCIONES3 Como Entero;
+	Definir PINES_XSHUT3 Como Entero;
+	Definir DIRECCIONES4 Como Entero;
+	Definir PINES_XSHUT4 Como Entero;
+	Definir DIRECCIONES5 Como Entero;
+	Definir PINES_XSHUT5 Como Entero;
+	Definir DIRECCIONES6 Como Entero;
+	Definir PINES_XSHUT6 Como Entero;
+	Definir DIRECCIONES7 Como Entero;
+	Definir PINES_XSHUT7 Como Entero;
+	
+	DIRECCIONES1 = 30;
+	DIRECCIONES2 = 31;
+	DIRECCIONES3 = 32;
+	DIRECCIONES4 = 33;
+	DIRECCIONES5 = 34;
+	DIRECCIONES6 = 35;
+	DIRECCIONES7 = 36;
+	
+	PINES_XSHUT1 = 15;
+	PINES_XSHUT2 = 2;
+	PINES_XSHUT3 = 4;
+	PINES_XSHUT4 = 16;
+	PINES_XSHUT5 = 17;
+	PINES_XSHUT6 = 5;
+	PINES_XSHUT7 = 18;
+	
+    Definir i Como Entero;
+    
+    Para i = 0 Hasta 6
+        //Simulate setting the sensors to reset mode
+        Escribir "Poniendo sensor ", i, " en modo de reset";
+        
+        //Simulate removing the reset mode
+        Escribir "Sacando sensor ", i, " del modo de reset";
+        
+        //Simulate sensor address configuration
+        Escribir "Configurando sensor ", i, " con dirección ";
+    FinPara
+Finfuncion
+
+Funcion LeerSensores()
+    Definir i Como Entero;
+    Definir medicion Como Real;
+    
+    Para i = 0 Hasta 6
+        medicion = 100 + i * 10; // "Simulated measurement value"
+        
+        Escribir "Sensor ", i, ": ", medicion, " mm";
+    FinPara
+FinFuncion
