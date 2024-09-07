@@ -116,7 +116,7 @@ In this section, we describe the key materials used in the construction of our a
 | **TCS3200 Color Sensor**  | ~2.5 mA during operation                     | [TCS3200 Datasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/560507/AMSCO/TCS3200.html) |
 | **2x N20 800RPM Motors**  | ~50 mA per motor no load; max. 200 mA per motor | [N20 Motor 800RPM Datasheet](https://naylampmechatronics.com/motores-dc/278-micromotor-dc-n20-12v-1000rpm.html) |
 | **Driver H-Bridge TB6612FNG** | ~1.2 mA no load                        | [TB6612FNG Datasheet](https://www.sparkfun.com/datasheets/Robotics/TB6612FNG.pdf) |
-| **7x TOF VL53L0X Sensors**| ~19 mA per sensor (~133 mA total)            | [VL53L0X Datasheet](https://www.st.com/resource/en/datasheet/vl53l0x.pdf) |
+| **5x TOF VL53L0X Sensors**| ~19 mA per sensor (~95 mA total)            | [VL53L0X Datasheet](https://www.st.com/resource/en/datasheet/vl53l0x.pdf) |
 | **MG995 Servo**           | ~500 mA no load; up to 1.5 A at full load    | [MG995 Servo Datasheet](https://www.electronicoscaldas.com/datasheet/MG995_Tower-Pro.pdf) |
 | **ESP32-CAM**             | ~160 mA during operation                     | [ESP32-CAM Datasheet](https://loboris.eu/ESP32/ESP32-CAM%20Product%20Specification.pdf) |
 | **MPU6050 Gyroscope**     | ~3.9 mA during operation                     | [MPU6050 Datasheet](https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/) |
