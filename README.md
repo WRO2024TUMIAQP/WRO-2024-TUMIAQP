@@ -262,9 +262,8 @@ void loop() {
 ```
 
 > [!TIP]
-> Para una mejor comprension del codigo puede revisar el diagrama de flujo y pseudo codigo en: ! [Diagrama de flujo](SRC/CODES/SECOND-DELIVERY/12C_TOF_CODE)
+> "For a better understanding of the code, you can review the flowchart and pseudocode at": ! [Flowchart](SRC/CODES/SECOND-DELIVERY/12C_TOF_CODE)
 
-SRC/CODES/SECOND-DELIVERY/12C_TOF_CODE
 
 ![First phase of the system ](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-System/First-Phase.png)
 
@@ -401,7 +400,7 @@ bool setupCamera() {
 ```
 
 > [!TIP]
-> Para una mejor comprension del codigo puede revisar el diagrama de flujo y pseudo codigo en: ! [Diagrama de flujo](SRC/CODES/SECOND-DELIVERY/CODE-ESP-CAM)
+> "For a better understanding of the code, you can review the flowchart and pseudocode at": ! [Flowchart](SRC/CODES/SECOND-DELIVERY/CODE-ESP-CAM)
 
 
 
