@@ -120,7 +120,7 @@ In this section, we describe the key materials used in the construction of our a
 | **MG995 Servo**           | ~500 mA no load; up to 1.5 A at full load    | [MG995 Servo Datasheet](https://www.electronicoscaldas.com/datasheet/MG995_Tower-Pro.pdf) |
 | **ESP32-CAM**             | ~160 mA during operation                     | [ESP32-CAM Datasheet](https://loboris.eu/ESP32/ESP32-CAM%20Product%20Specification.pdf) |
 | **MPU6050 Gyroscope**     | ~3.9 mA during operation                     | [MPU6050 Datasheet](https://invensense.tdk.com/products/motion-tracking/6-axis/mpu-6050/) |
-| **Estimated Total**       | **~1.36 A (without full load on servo and motors)** |                                                                 |
+| **Estimated Total**       | **~1.32 A (without full load on servo and motors)** |                                                                 |
 | **Maximum Estimated Total** | **Up to ~1.9 A** (with servo and motors at full load) |                                                                 |
 
 # 3. Models
@@ -401,6 +401,9 @@ bool setupCamera() {
 
 > [!TIP]
 > "For a better understanding of the code, you can review the flowchart and pseudocode at": ! [Flowchart](SRC/CODES/SECOND-DELIVERY/CODE-ESP-CAM)
+
+
+
 
 
 
