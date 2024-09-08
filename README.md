@@ -13,7 +13,7 @@
 
 Welcome to the repository of the **Future Engineers** team for the **WRO 2024**, representing **Arequipa, Peru**! 🇵🇪
 
-![TEAM TUMI](T-PHOTOS/Formal-photo.jpg)
+![TEAM TUMI](T-PHOTOS/Formal-photo-of-the-Second-prototype.jpg)
 
 ## 1.1 About Us
 
