@@ -261,6 +261,11 @@ void loop() {
 }
 ```
 
+> [!TIP]
+> Para una mejor comprension del codigo puede revisar el diagrama de flujo y pseudo codigo en: ! [Diagrama de flujo](SRC/CODES/SECOND-DELIVERY/12C_TOF_CODE)
+
+SRC/CODES/SECOND-DELIVERY/12C_TOF_CODE
+
 ![First phase of the system ](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-System/First-Phase.png)
 
 ## 4.1. First Phase
@@ -393,6 +398,11 @@ bool setupCamera() {
   config.pin_sscb_scl = SIOC_GPIO_NUM;
   config.pin_pwdn = PWDN_GPIO_NUM;
   config.pin
+```
+
+> [!TIP]
+> Para una mejor comprension del codigo puede revisar el diagrama de flujo y pseudo codigo en: ! [Diagrama de flujo](SRC/CODES/SECOND-DELIVERY/CODE-ESP-CAM)
+
 
 
 
