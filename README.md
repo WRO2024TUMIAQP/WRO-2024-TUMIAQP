@@ -268,7 +268,7 @@ void loop() {
 ![First phase of the system ](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-System/First-Phase.png)
 
 ## 4.1. First Phase
-The front TOF detects obstacles and guides the trajectory at a distance of 30 cm, while two additional specialized TOF sensors, placed at 30° on each side of the vehicle, detect the corners of the center of the track to improve precision in curve detection.
+The front TOF detects obstacles and guides the trajectory at a distance of 30 cm, while two additional specialized TOF sensors, placed at 30° on each side of the vehicle, detect the corners of the center of the track to improve precision in curve detection, when both motors are used in the same direction at the same speed, the differential system is invalidated, and trajectories are only corrected by the front steering wheels.
 
 ![Second phase of the system ](V-PHOTOS/SECOND-PROTOTYPE/OTHER-PHOTOS/TOF-System/Second-Phase.png)
 
