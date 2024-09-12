@@ -166,7 +166,7 @@ The TB6612FNG H-Bridge Driver will control the N20 Motors of the differential sy
 
 # 4. TOF System
 
-To operate the 7 Time-of-Flight (ToF) sensors in the project, an I2C connection is used. This connection allows for efficient management of the sensors by assigning each one a unique address and simplifying the wiring. The provided code configures and reads measurements from these sensors, enabling their integration with steering systems such as Ackerman and differential. This ensures precise and effective object detection and distance measurement in the system.
+To operate the 7 Time-of-Flight (ToF) sensors in the project, an I2C connection is used. This connection allows for efficient management of the sensors by assigning each one a unique address and simplifying the wiring. The provided code configures and reads measurements from these sensors, enabling their integration with steering systems such as Ackerman. This ensures precise and effective object detection and distance measurement in the system.
 
 ```cpp
 #include <Wire.h>
